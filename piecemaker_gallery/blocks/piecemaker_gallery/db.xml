@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btPiecemakerGallery">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="width" 		type="I"></field>
+		<field name="height" 		type="I"></field>
+		<field name="fsID" 		type="I"></field>
+		<field name="awidth" 		type="I"></field>
+		<field name="aheight" 		type="I"></field>
+		<field name="transitions"	type="X"></field>
+		<field name="active_resize"	type="X"></field>
+		<field name="options"		type="X"></field>
+		<field name="linkPageID"	type="X"></field>
+		<field name="fileLink"		type="X"></field>
+	</table>
+	<table name="btPiecemakerGalleryPresets">
+		<field name="effectPresetID" type="I">
+			<KEY/>
+			<autoincrement />
+		</field>
+		<field name="options"			type="X"></field>
+		<field name="title"			type="X"></field>
+	</table>
+
+</schema>

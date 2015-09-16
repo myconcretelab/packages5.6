@@ -1,0 +1,4 @@
+1.2 	- Warning : Updated to font-awesome 4.0, if some icon has been disappear,  just edit the icooon blocks and click on the icon you like. Maybe you'll fall on a new icon that best suits your needs?
+	- Fix accents issue
+1.1	- Add a htmlentities for text and content. 
+1.0 	- Initial Release

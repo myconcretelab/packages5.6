@@ -1,0 +1,628 @@
+/*
+bleu : 18aedf
+gris clair : 373b3e;
+gris fonce : 373b3e;
+texte 585f63
+*/
+
+// sass --watch concretebase/packages/theme_super_mint/themes/super_mint/sass/screen.scss:concretebase/packages/theme_super_mint/themes/super_mint/stylesheets/screen.css --style compact
+
+
+/* ---- Height Fix ---- */
+
+html {
+  overflow-y: scroll;
+   font-size: 14px; 
+  line-height: 22px; 
+  font-family: "ColaborateThinRegular", Arial, sans-serif;
+  color: #585f63;   
+}
+
+body {
+  position: relative;
+  transition: 1s opacity;
+  // opacity: 0;
+  &.edit-mode {
+    /* SInon, les cadres d'éditions sont décalé vers le bas */
+    position: static !important;
+  }
+  // opacity: 0;
+}
+/* Loaded body */
+body.loaded {
+  opacity: 1;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.lined, .hr {
+  min-height: 4px;
+  /* Sinon le border n'est pas visible .. ? */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px -2px rgba(250, 250, 250, 0.2);
+  // background:rgba(0,0,0,0.2) ;
+}
+
+hr.dashed {
+    margin: 30px auto;
+    border: 0;
+    border-bottom: 1px dashed rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.2) ;
+}
+
+h3 + hr, h4 + hr {
+  margin-top:-1em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'LeagueGothicRegular', Arial, sans-serif;
+  color: #585f63;
+  font-weight: normal;
+  line-height: normal;
+}
+
+p:first-child, div > h4 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.lead strong {
+  color: #18aedf;
+}
+
+
+a {
+  color: #18aedf;
+  i {
+    position: relative;
+    transition: all 0.25s;
+    color: #18aedf;
+  }
+  &:hover i {
+    left: 3px;
+  }
+}
+
+.slim_table {
+  background: white;
+  margin-bottom: 1.11111rem;
+  border: solid 1px #dddddd;
+} 
+.slim_table td {
+  display: table-cell;
+  line-height: 1rem;
+  padding: 0.5rem 0.55556rem;
+}
+.slim_table tr:nth-of-type(even) {
+  background: #f9f9f9;
+}
+
+.upp{
+  text-transform: uppercase;
+}
+
+.bld {
+  font-weight: bold;
+}
+
+.block {
+  display: block;
+}
+
+.writting {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+.mutted {
+  opacity: .7;
+}
+
+.right {
+  float: right;
+  margin-left: 12px;
+}
+
+.left, .alignleft {
+  float: left;
+  margin-right: 12px;
+}
+
+.space {
+  height: 40px;
+}
+
+.shadow {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.padding {
+  padding: 24px;
+}
+
+.zero{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* --- Into Typo --- */
+
+.lead {
+  font-size: 21px;
+  line-height: 30px;
+  font-family: "ColaborateThinRegular", Arial, sans-serif;
+}
+
+/* --- End Into Typo --- */
+
+#fancybox-loading div {
+  width: 120px;
+  height: 120px;
+  padding:10px;
+  border-radius:5px;
+  background: url('../images/fancybox/fancybox_loading.gif') rgba(250,250,250,.5) center center no-repeat;
+}
+
+/* --- Ribbon effect --- */
+
+.ribbon {
+//  @include ribbon(#333,auto);
+}
+.ribbon-pink {
+  // @include ribbon(#da3376,356px);
+}
+
+
+
+.double_space {
+  height: 64px;
+}
+
+.tiny-space {
+  height: 8px;
+}
+
+
+img.framed {
+  margin-left: 4px;
+  background: #efefef;
+  padding: 4px;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  z-index: 1;
+  transition: all 0.25s;
+  &:hover {
+    box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.1);
+    transform: scale(1.08) translateY(-5px);
+  }
+}
+
+
+.clear, .space {
+  clear: both;
+}
+
+
+
+
+
+
+/*--- Global structure --- */
+
+body {
+  min-height: 100%;
+  bottom: 0;
+  height: 100%;
+}
+
+#top {
+  position: relative;
+  background-color: #373b3d;
+  z-index: 3;
+  .inner {
+    position: absolute;
+    height: 41px;
+    width: 100%;
+    background: #cccccc url(../images/bg_top_nav.png) repeat-x;
+  }
+}
+
+/* inner a etet créé pour permettre d'afficher la barre grise + de permettre de choisi un background pour #top */
+
+#top-page {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  &>.row {
+    padding:10px 0;
+  }
+  h3 {
+    margin: 0 30px 5px 30px;
+    line-height: 25px;
+    font-size: 21px;
+  }
+  .desc {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 10px;
+    p {
+      margin:0;
+    }
+  }
+}
+
+#middle {
+  background-image: url(../images/subtle_white_feathers.png);
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar {
+  background-color: #f5f5f5;
+}
+
+.content {
+  margin-bottom: 30px;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+#top-page {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/* -- @- Unbordered -- */
+
+#header_unbordered {
+  /*padding-bottom: 20px;  Comment faire si l'area est vide ? */
+}
+
+#main_unbordered {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#under_main_unbordered, #under_header_unbordered, #main_unbordered, #top-page {
+  position: relative;
+  z-index: 1;
+}
+#page-top-unbordered {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+#middle_unbordered {
+  // margin-bottom: -12px;
+  /* Pour effacer l'effet d'annulation de marge */
+  padding-top: 1px;
+  position:relative;
+  z-index: 1;
+}
+
+#bottom {
+  position: relative;
+  background-color: #18aedf;
+  z-index: 2;
+  h2, p, i {
+    color: #eee;
+  }
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+  /*Au dessus de #footerpush, en dessous de #page*/
+  p, li, i {
+    color: #999;
+  }
+  h1, h2, h3, h4, a, strong {
+    color: #fefefe;
+  }
+  .nav {
+    padding: 0;
+    li {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 2px -2px rgba(250, 250, 250, 0.3);
+      text-transform: uppercase;
+      line-height: 30px;
+      text-indent: 10px;
+      opacity: .8;
+      transition: all 0.25s;
+      &:last-child {
+        border-bottom: none;
+        box-shadow: none;
+      }
+      &:hover {
+        text-indent: 15px;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.edit-mode #footer {
+  position: relative;
+}
+
+#footerpush {
+  z-index: 0;
+  /*Au dessus de header, sous page*/
+  background-color: #373b3e;
+  /* La couleur du footer */
+}
+
+#footer-note span {
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/*--- Toolbar ---*/
+
+body.toolbar-active {
+  /*margin-top: 51px;*/
+}
+
+/* --- Fixed top --- */
+
+#fixed-top {
+  background-color: #373b3d;
+  min-height: 25px;
+  position: relative;
+  z-index: 3;
+}
+
+/*--- Search Box --- */
+#expand-search {
+  margin-left: 10px;
+}
+#expand-search {
+  input {
+    outline: none;
+    &::-webkit-search-decoration, &::-webkit-search-cancel-button {
+      display: none;
+      /* remove the search and cancel icon */
+    }
+    &[type=search] {    
+      // Reset
+      -webkit-appearance: textfield;
+      -webkit-box-sizing: content-box;
+      font-family: inherit;
+      // design
+      position: relative;
+      top:3px;
+      height: 15px;
+      width: 17px;
+      line-height: 25px;
+      padding-left: 0px;
+      font-size: 13px;
+      color: #fff;
+      background: #fff url(http://i.imm.io/Q0Jo.png) no-repeat 2px center;
+      cursor: pointer;
+      -webkit-border-radius: 10em;
+      -moz-border-radius: 10em;
+      border-radius: 10em;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all .5s;
+      box-shadow:none;
+      &:focus {
+        width: 130px;
+        padding-left: 32px;
+        color: #000;
+        cursor: auto;
+      }
+    }
+  }
+}
+
+#logo {
+  a {
+    margin: 15px 20px;
+  }
+  p {
+    color: #eee;
+  }
+}
+
+
+
+#shortcuts {
+  ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+/*--------------- Ribbon ---------------*/
+
+
+.sm_ribbon_bottom {
+  position: relative;
+  top: 17px;
+  background-image: url(../images/ribbon-bottom.png);
+  height: 17px;
+}
+
+.sm_ribbon {
+  position: absolute;
+  top: -5px;
+  right: 30px;
+  width: 112px;
+  margin-bottom: 17px;
+  background: url(../images/ribbon.png) repeat-y;
+  h2 {
+    padding: 10px 14px 0;
+    font-size: 22px;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+}
+
+
+
+.readmore {
+  /*display: block;*/
+  position: absolute;
+  padding: 3px 10px;
+  background: #f7f7f7;
+  right: 0px;
+  bottom: -30px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  transition: all 0.25s;
+  &:hover {
+    box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.sidebar .readmore i {
+  color: #efefef !important;
+  right: -30px;
+}
+
+.icooon .readmore {
+  position: relative;
+  bottom: 0;
+  text-align: right;
+}
+
+/*--------------- @- Blog page-list ---------------*/
+
+.bog_date {
+  h1, h3, h4 {
+    margin: 0;
+  }
+}
+
+p.meta {
+  font-size: 13px;
+}
+
+/*--------------- Carousel page-list ---------------*/
+
+.carousel-page-list {
+  padding-bottom: 30px;
+}
+
+/*--------------- Pageslide ---------------*/
+
+#pageslide {
+  /* These styles MUST be included. Do not change. */
+  display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999;
+  /* Ajoute pour les contenus trop long*/
+  overflow: scroll;
+  /* Specify the width of your pageslide here */
+  width: 280px;
+  padding: 0 20px;
+  box-shadow: inset -2px 0 5px 1px rgba(0, 0, 0, 0.5);
+  .nav-pane .close {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+/*#pageslide:after {
+	position: absolute;
+	top: 15px; right: 15px;
+	content: "\f061";
+	font-family: FontAwesome;
+	font-size: 16px;
+	z-index: 9999;
+
+}
+*/
+
+/*--------------- Accordions ---------------*/
+
+.ccm-easyAccordion-title {
+  margin: 5px 0 -1px 0;
+  line-height: 25px;
+  padding:10px;
+  padding-left: 30px;
+  font-weight: normal;
+  box-shadow: none;
+  border-radius: 0;
+  background: url(../images/bullet-arrow-right.png) no-repeat 5px center;
+  transition: all 0.25s;
+  border: 1px solid #cecece;
+  font-family: inherit;
+}
+
+.ccm-easyAccordion-title-active {
+  background-image: url(../images/bullet-arrow-down.png);
+  border-bottom-color:transparent;
+}
+
+.ccm-easyAccordion-container {
+  border: 1px solid #cecece;
+  border-top-color:transparent;
+  background-color: #fcfcfc;
+}
+.ccm-easyAccordion-content {
+  padding:20px;
+}
+
+
+/*------------ Slider -------------*/
+
+.tp-caption {
+  position: absolute;
+  &.big_white, &.big_colored, &.big_3d_white, &.very_big_white, &.big_black, &.black {
+    font-family: 'LeagueGothicRegular', Arial, sans-serif;
+  }
+  &.medium_white_text, &.large_white_text {
+    font-family: 'ColaborateMediumRegular', Arial, sans-serif;
+  }
+  &.small_box_white, &.medium_box_white, &.big_box_white, &.paragraph, &.white_boxshadow {
+    font-family: 'ColaborateThinRegular', Arial, sans-serif;
+  }
+}
+
+
+
+/*------------ zigzag effects -------------*/
+
+.zigzag {
+  @include zig-zag (#DA3376,20px);
+}
+
+

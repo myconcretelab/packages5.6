@@ -1,0 +1,48 @@
+.cartproduct {
+  clear: both;
+  td {
+    position: relative;
+  }
+  .ccm-core-commerce-max-quantity {
+    border: none;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    color: #fff;
+    background: transparent;
+    &:hover {
+      opacity: .5;
+      cursor: pointer;
+    }
+  }
+  h1.title {
+    width: 200px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: -5px;
+  }
+  small.name {
+
+  }
+
+}
+#pageslide .button-block, #pageslide .button-block i {
+	color:#fff;
+}
+p.line {
+  border-bottom: 1px dotted #fff;
+}
+
+.total {
+  color: #fff;
+}
+
+p.total {
+  float: left;
+  font-size: 14px;
+}
+
+h1.total {
+  margin-top: 50px;
+  text-align: right;
+}

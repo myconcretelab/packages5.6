@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btPieChart">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="barColor" type="C" size="7"><default value="#ef1e25" /></field>
+		<field name="trackColor" type="C" size="7"><default value="#f2f2f2" /></field>
+		<field name="scaleColor" type="C" size="7"><default value="#dfe0e0" /></field>
+		<field name="textColor" type="C" size="7"><default value="#cccccc" /></field>
+		<field name="lineCap" type="C" size="10"><default value="square" /></field>
+		<field name="lineWidth" type="I"><default value="3" /></field>
+		<field name="rotate" type="I"><default value="0" /></field>
+		<field name="animate" type="I"><default value="0" /></field>
+		<field name="size" type="I"><default value="0" /></field>
+		<field name="track" type="I"><default value="1" /></field>
+		<field name="scale" type="I"><default value="1" /></field>
+		<field name="value" type="I"><default value="75" /></field>
+		<field name="fontSize" type="I"><default value="1" /></field>
+		<field name="content" type="C" size="250"><default value="75%" /></field>
+	</table>
+</schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btBladeSlider">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" type="I"></field>
+		<field name="width" type="I"></field>
+		<field name="height" type="I"></field>
+		<field name="rows" type="I"></field>
+		<field name="cols" type="I"></field>
+		<field name="thumbSpacing" type="I"></field>
+		<field name="slideDelay" type="I"></field>
+		<field name="arrowPadding" type="I"></field>
+		<field name="options" type="X"></field>
+		<field name="transitionType" type="X"></field>
+	</table>
+</schema>

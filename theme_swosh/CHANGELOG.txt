@@ -1,0 +1,20 @@
+2.3.5	- Fix Lowercase on sub-sub-menu
+2.3.4	- Fix the position of sub-sub-menu
+2.3.3	-Little CSS fix for Team
+2.3.2	- Align icons on subnavs.
+2.3.1	- Fix icon issue on block team
+2.3	- Fix the icon & page attribute installation.
+	- Add button css definition to icooon box template.
+	- Add the support for a custom stylesheet on {root}/css/swosh.css
+2.2.1	- Add a template to icooon let manage the social icon on footer
+2.2	- CAUTION! Due to the update to Font-awesome 4.0 this version will make all icon. invisible. Take a look on the documentation page in the demo site.
+2.1.1	- Disable the auto embed navigation by adding : define('SWOSH_DISABLE_EMBED_NAVIGATION', true); in site.php
+2.1	- Now add left_sidebar, right_sidebar, full page-type if missing.
+	- Swosh slider take care of a existing link_url or link_text to images and create 	button if exist
+2.0 	- Completely "recolored" and re-featured theme with new addon
+0.9.3.3	fix a ie8 issue on logo
+0.9.3.2 - Fix the customize_second_color_on_background to customize bg color
+0.9.3.1	- Fix the hover of the slider thumbnail
+0.9.3	- Add auto play option in swosh slider
+0.9.2.2	- Fix ie navigation
+0.9 	- Initial release

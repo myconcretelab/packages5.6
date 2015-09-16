@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+  <table name="PortfolioOptions">
+    <field name="oID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>    
+    <field name="options" type="X"/>
+    <field name="displayType" type="C" size="15"/>
+    <field name="maxPicture" type="I"/>
+    <field name="blankFileID" type="I"/>
+    <field name="indexPicture" type="I"/>
+    <field name="buttonText" type="X"/>
+    <field name="button_color" type="C" size="10"/>
+    <field name="textUnderDesc" type="X"/>
+    <field name="thumbWidth" type="I"/>
+    <field name="thumbHeight" type="C" size="10"/>    
+    <field name="zoomWidth" type="C" size="15"/>
+    <field name="zoomHeight" type="C" size="15"/>
+    <field name="adjustX" type="I"/>
+    <field name="adjustY" type="I"/>
+    <field name="tintOpacity" type="F"/>
+    <field name="lensOpacity" type="F"/>
+    <field name="smoothMove" type="I"/>
+    <field name="titleOpacity" type="F"/>
+    <field name="position" type="C" size="15"/>
+    <field name="tint_color" type="C" size="15"/>
+  </table>
+</schema>

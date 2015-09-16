@@ -1,0 +1,10 @@
+ul.simple li a { 
+	position: relative; 
+	margin-bottom: -1px; 
+	display: block; 
+	padding: 5px 5px; 
+	color: inherit; 
+}
+ul.simple li a.active, ul.simple li a:hover {
+	
+}

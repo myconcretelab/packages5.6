@@ -1,0 +1,148 @@
+/* Big Container */
+.content_lateral_slider_wrap{
+    margin:0px auto 0px auto;
+    padding:0px;
+    position:relative;
+    text-align:left;
+    overflow:visible;
+/* Uncoment if you like Shadows
+    -moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+*/
+}	
+
+
+/* Content of different Scrabbook */	
+ul.content_lateral_slider {	
+    position:relative;
+    float:right;
+    display:block;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    padding:0px;
+    list-style: none;
+    text-align:left;
+}
+ul.content_lateral_slider li{
+    position:relative;
+    overflow:hidden;
+    display:block;
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+
+ul.content_lateral_slider li * {
+
+}
+ul.content_lateral_slider .content_slide {
+    margin:0; padding:0; overflow:hidden;
+    background:#ffffff;
+}
+ul.content_lateral_slider .content_slide_0 {
+    background:#484848;    
+}
+ul.content_lateral_slider .content_slide_0 * {
+    color:#ffffff;    
+}
+ul.content_lateral_slider .content_slide_1 {
+    background:#ffffff;    
+    
+}
+ul.content_lateral_slider .content_slide_2 {
+    background:#d8d7d7;        
+}
+ul.content_lateral_slider .content_slide_2 * {
+    color:#484848;    
+}
+ul.content_lateral_slider .content_slide_3 {
+    background:#f1f1f1;        
+}
+
+ul.content_lateral_slider .inner_slide {
+    padding:10px;
+    padding-left:20px;
+}
+
+/* Lateral Controls Container */
+ul.lateral_controls{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:220px;
+    margin:0px;
+    padding:1px 0 0 0;
+    background:#e1e1e1;
+    z-index:3;
+    list-style:none;
+    overflow:visible;
+}
+.lateral_controls li.control {
+    width:220px;
+    height:60px;
+    margin:0; padding:0;
+    list-style:none;
+    background:url(../images/sidebarbg.png) top left no-repeat;
+    cursor:pointer;
+    list-style:none;
+}
+.lateral_controls li.active{
+
+}
+.lateral_controls li.nav_animation {
+    position:absolute;
+    margin:0 !important;
+
+    /* Optional */
+    width:250px; height:63px;
+    top:0;
+    left:-5px;
+    display:block;
+    background:url(../images/sidebarbg2.png) top left no-repeat;    
+}
+
+.lateral_controls.control_0 {
+    
+}
+.lateral_controls.control_1 {
+    
+}
+.lateral_controls.control_2 {
+    
+}
+.lateral_controls.control_3 {
+    
+}
+.lateral_controls .control h2{
+    /* Required */
+    position:relative;
+    z-index:40;
+
+    /* Optional */
+    padding:10px 0px 0px 12px ;
+    margin:0px !important;
+    overflow:hidden;
+    font-size:15px !important;
+    color:#146b93 !important;
+}
+.lateral_controls .active h2{
+    color:#ffffff;
+    font-size:17px;
+        text-shadow:none;
+}
+.lateral_controls .control p{
+    /* Required */
+    position:relative;
+    z-index:40;
+
+    /* Optional */
+    padding:0 30px 0px 12px ;
+    margin:0px !important;
+    font-size:11px !important;
+    color:#777 !important;
+}
+.lateral_controls .active p {
+    color:#ffffff;
+}

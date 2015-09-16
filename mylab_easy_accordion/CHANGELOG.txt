@@ -1,0 +1,14 @@
+1.1.3	- Remove the css height to fix the wrong height on open
+1.1.2	- Fix a strange duplicate call from Supermint
+1.1.1	- Add a separate class to each title (ccm-easyAccordion-title-0,ccm-easyAccordion-title-1..)
+1.1	- Remove the jQuery UI
+	- New tab design
+1.0.6.1 - Remove the console.log (IE sript bug)
+1.0.6 	- Works now with jQuery UI accordion (theming is now from jQuery UI)
+	- delete the 'disable' functionality
+1.0.5	- Add the capabilities to set some class to the wrapper
+1.0.4	- Remove the automatic rounded corner
+1.0.3	- Fixed small bug when all the tabs are not disable + add hover class
+1.0.2 	- You can disable 0,1 or multiple tab.
+1.0.1 	- click on an open tab, closes that tab.
+1.0 	- Initial Release

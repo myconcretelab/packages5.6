@@ -1,0 +1,40 @@
+1.7.3	- Fix details with the disabling of the responsiveness
+1.7.2	- Fix some error with toggle option
+	- Fix anchor hovered color
+	-	
+1.7.1.1	- Fix some minor bug.
+	- Remove the options « enable typo color »
+1.7.1	- Remove Superfish navigation for a css only drop down.
+	- Add double tab management on main-nab
+1.7 	- New navigation for mobile and tablets.
+	- Global improvements for best view on mobile devices.
+1.6.1	- Add a option to make footer global.
+1.6	- Remove the blender.css.php & T
+1.5	- Drastic improvement in loading speed
+1.4	- Fix dashboard design issue
+	- Add the capabilities to extend patterns png's
+	- Fix the thin shadow on header
+1.3.9.2	- Fix a fatal error with defaultAttribute on c5.6.2
+1.3.9.1	- Remove a console.log that break the navigation on ie9
+1.3.9	- Fix the disabling of mobile detection
+1.3.8   - Remove padding from .container to avoid lateral scroll
+1.3.7	- Allow the user to add a special stylesheet to root/css/silence/styles.css
+1.3.6	- Fix tha anchor appearance trough the theme
+1.3.5	- Add a option to disable the mobile detection
+1.3.4	- Fix the .row issue compatibility with C5.6
+1.3.3	- Add the package version into header
+1.3.2	- Fixed the navigation animation problem
+1.3.1	- Fixed the right sidebar page type Title problem
+1.3	- Improved display and navigation on mobile
+	- Add option 'hide search bar on mobile'
+	- Improved compatibility with easy_accordion
+1.2.1	- Remove the fixed mobile setting on autonav
+1.2	- Improvements of mobile template
+	- Fix the inability to save options
+1.1	- Add a mobile detection
+	- Change the nav into select on Mobile
+	- Fix some permissions problems
+	- Add sign-in link on the footer
+1.0.2 	- fix the 5.4 incompatibility with Packges::getRelativePath()
+1.0.1	- Fix the imagecolorallocatealpha issue on some servers for body-color
+1.0 	- Fix the body color double input.

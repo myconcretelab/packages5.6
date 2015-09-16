@@ -1,0 +1,195 @@
+#media-gallery{
+  border:2px dashed #cccccc;
+  min-height:50px;
+}
+#media-gallery, #media-available {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    display:block;
+    border:1px solid #eeeeee;
+    }
+
+#media-gallery {
+    background:#ffffff
+    }
+#media-available {
+    height:80px;
+    padding:10px
+    }
+#media-gallery li,
+#media-available li {
+    margin: 2px 2px 0px 0px;
+    float:left;
+    border:none; background:none !important;
+}
+#media-gallery li {
+    display:block;
+    float:none;
+    padding:10px;
+}
+#media-gallery li a {
+    cursor:move;
+    }
+#media-gallery li a span {
+    width:380px;
+    }
+#media-available li a {
+    cursor:move;
+    }
+.media	{
+    background:#ffffff;
+    width:510px
+    } 
+#media-gallery li .media-asset {
+    cursor:pointer;
+    margin-top:0px;
+    margin-left:10px;
+    }
+
+label 				{color:#666666}
+table td			{padding:8px;}
+.wrong				{border:2px solid red !important;}
+
+.invisible {
+    border:0;
+    font-weight:bold;
+    width:30px;
+    background:#fafafa;
+}
+
+table.form>td {
+    border-bottom:1px solid #cccccc
+}
+
+
+/* ---------------------------------------------
+	Buttons
+-----------------------------------------------*/
+
+a.btn,
+button {
+	display: inline-block;
+	height: 33px;
+	padding-left: 6px;
+        margin:0;
+}
+
+a.btn span,
+button span {
+	display: inline-block;
+	float: left;
+	height: 28px;
+	padding: 5px 24px 0 16px;
+	font-weight: bold;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+a.btn:hover {
+	text-decoration: none;
+}
+
+a.btn.grey {
+	background: url(images/btn-content-grey.png) no-repeat 0 0 transparent;
+	color: #a81560;
+}
+a.btn.grey span {
+	background: url(images/btn-content-grey.png) no-repeat 100% 0 transparent;
+}
+
+
+/* ---------------------------------------------
+	TOGGLE.CSS
+-----------------------------------------------*/
+
+div#itoggle{
+	background:#FFF;
+	padding:20px 20px 0;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color:#333;
+	}
+div#itoggle h3{
+	margin-bottom:4px;
+	font-size: 14px;
+	font-weight:bold;
+	}
+div#itoggle p{
+	color:#666;
+	margin-bottom:10px;
+	}
+
+div#console{
+	display:none;
+	position:absolute;
+	top:8px;
+	right:8px;
+	width:160px;
+	padding:6px 8px 8px 8px;
+	text-align:right;
+	background:#000;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	background:url(/global/images/console.gif);
+	}
+div#console p{
+	margin:0;
+	font-size:11px;
+	font-family:"Courier New", Courier, monospace;
+	}
+
+input.iT_checkbox_on{
+	display:block !important;
+	float:left;
+	position:relative !important;
+	top:-43px !important;
+	left:100px !important;
+	margin-bottom:-43px;
+	}
+
+/* -----------------------------
+	This is the important bit
+-------------------------------*/
+
+label.ilabel{
+	display:block;
+	font-size:12px;
+	padding-bottom:10px;
+	cursor:pointer;
+	}
+
+ label.itoggle,
+ label.itoggle span{
+	display: block;
+	width: 93px;
+	height: 27px;
+	margin-bottom: 20px;
+	background: url(images/itoggle.png) left bottom no-repeat;
+	cursor:pointer;
+	text-indent:-5000px;
+	}
+ label.itoggle.iToff{
+	background-position:right bottom;
+	}
+ label.itoggle span{
+	background-position: left top;
+	margin: 0;
+	}
+ input.iT_checkbox{
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+	}
+
+/*	
+	If you want the corners to be
+	transparent, add these two lines
+	to the main block above. Only
+	works on webkit and mozilla browsers
+	For more reliable results, make your
+	own png using the supplied .psd
+	
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+*/

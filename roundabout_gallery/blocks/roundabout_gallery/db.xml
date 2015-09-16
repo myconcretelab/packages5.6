@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btRoundaboutGallery">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="width" 		type="I"></field>
+		<field name="height" 		type="I"></field>
+
+		<field name="fsID" 		type="I"></field>
+		<field name="fsTitle" 		type="C" size="255"></field>
+		<field name="fsDescription" 	type="X"></field>
+		<field name="stID" 		type="I"></field>
+
+		<field name="easing" 		type="C" size="30"></field>
+		<field name="shape"	 	type="C" size="30"></field>
+
+		<field name="resize"	 	type="C" size="10"></field>
+		<field name="duration" 		type="I"></field>
+		<field name="minOpacity" 	type="F"></field>
+		<field name="maxOpacity" 	type="F"></field>
+		<field name="minScale" 		type="F"></field>
+		<field name="maxScale" 		type="F"></field>
+		<field name="bearing" 		type="F"></field>
+		<field name="tilt" 		type="F"></field>
+		<field name="maxZ" 		type="I"></field>
+		<field name="minZ" 		type="I"></field>
+		<field name="maxW" 		type="I"></field>
+
+
+		<field name="content_type"	type="C" size="20"></field>
+		<field name="linkPageID"	type="X"></field>
+		<field name="linkAdress" 		type="X"></field>
+		<field name="fileLink"		type="X"></field>
+		<field name="linkType"		type="X"></field>
+	</table>
+</schema>

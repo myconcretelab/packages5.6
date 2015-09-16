@@ -1,0 +1,9 @@
+2.0	- Add the capabilities to show stacks content 
+	- Image are cropped to fit in width & height
+	- New admin
+	- New options
+1.1.3	- Js files compacted
+1.1.2 	- Added possibility to select 'none' for title or description
+1.1.1 	- Keep your fileset sorted
+1.1 	- Possibility to choose different link on each image
+1.0 	- Initial Release

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btKwiksSLider">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" 		type="I"></field>
+		<field name="fsTitle" 		type="C" size="15"></field>
+		<field name="stID" 		type="I"></field>
+
+		<field name="easing" 		type="C" size="25"></field>
+		<field name="max" 		type="I"></field>
+		<field name="width" 		type="I"></field>
+		<field name="spacing" 		type="I"></field>
+		<field name="duration"	 	type="I"></field>		
+		<field name="defaultKwick" 	type="I"></field>		
+		<field name="minmax" 		type="C" size="5"></field>
+		<field name="event" 		type="C" size="15"></field>
+		<field name="options" 		type="X"></field>
+		
+		<field name="content_type"	type="C" size="20"></field>
+		<field name="linkPageID"	type="X"></field>
+		<field name="linkAdress" 		type="X"></field>
+		<field name="fileLink"		type="X"></field>
+		<field name="linkType"		type="X"></field>
+	</table>
+</schema>

@@ -1,0 +1,447 @@
+@font-face {
+	font-family: 'pcs_font';
+	src:url('../fonts/pcs_font.eot');
+	src:url('../fonts/pcs_font.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/pcs_font.ttf') format('truetype'),
+		url('../fonts/pcs_font.woff') format('woff'),
+		url('../fonts/pcs_font.svg#pcs_font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="pcsicon-"], [class*=" pcsicon-"] {
+	font-family: 'pcs_font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pcsicon-left:before {
+	content: "\e601";
+}
+.pcsicon-right:before {
+	content: "\e602";
+}
+.pcsicon-pause:before {
+	content: "\e600";
+}
+.pcsicon-play:before {
+	content: "\e604";
+}
+
+
+
+
+
+.pcs_slider {
+	position: relative;
+}
+/* The box for each slide */
+.pcs_container {
+	
+}
+
+/* Make sure that slider invisible during loading */
+.pcs_slider {
+	opacity: 0;
+	transition:opacity .5s ease-out;
+}
+.pcs_slider.loaded {
+	opacity: 1;
+}
+
+/* -- Sidebar -- */
+
+/* for a 100% heght */
+.pcs_sidebar {
+	
+	position: absolute;
+	height: 100%;
+}
+.pcs_left_sidebar {
+	left: 0;
+}
+.pcs_right_sidebar {
+	right: 0;
+}
+.pcs_sidebar_padding {
+	padding: 20px;
+}
+
+/* -- Main contentn -- */
+
+.pcs_main {
+	float: left;
+}
+table.pcs_product_table {
+	width:100%;
+	border-collapse:collapse;
+	margin: 0;
+}
+.pcs_product_table td {
+	margin: 0; padding: 0;
+	vertical-align: middle;
+	text-align: center;
+}
+.pcs_product_inner {
+	position: relative;
+	overflow: hidden;
+}
+
+/* --- Main captions ---*/
+
+.pcs_caption {
+    position: absolute;  
+    left: 0;
+    background-color: rgba(250,250,250,.9);
+    width: 100%;
+    height: 100%;
+}
+.pcs_caption * {
+	padding: 0 15px;
+}
+
+.pcs_padding {
+
+}
+
+/* --- Pager --- */
+
+.pcs_pager {
+/*	position: absolute;
+	left: 50%;
+	bottom: 30px;*/
+	text-align: center;
+}
+.pager_under_slider {
+	position: relative;
+}
+.pager_under_slider .pcs_pager {
+	bottom: 0
+}
+.pcs_pager_circle a {
+	display: inline-block;
+	text-indent: -999999px;
+	width:10px; height: 10px;
+	border-radius: 30px;
+	background-color: transparent;
+	border: 4px solid #fff;
+	margin: 0 2px;
+}
+.pcs_pager_circle a.active {
+	background-color: #fff;
+}
+
+/* --- Controls --- */
+.bx-controls-direction {position: relative;}
+.bx-wrapper .bx-controls-direction a,
+.bx-wrapper .bx-controls-auto .bx-stop,
+.bx-wrapper .bx-controls-auto .bx-start
+ {
+	position: absolute;
+	bottom: -32px;
+	outline: 0;
+	width: 32px;
+	height: 32px;
+	/*text-indent: -9999px;*/
+	z-index: 9999;
+	background-color: #999;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	transition:opacity .3s ease-out;
+}
+.bx-wrapper .bx-controls-direction a:hover,
+.bx-controls-auto-item a:hover {
+	text-decoration: none !important;
+	opacity: .8;
+}
+.bx-wrapper .bx-prev {
+	left: 0px;
+}
+.bx-wrapper .bx-next {
+	left: 32px;
+}
+
+/* --- Auto --- */
+.bx-controls-auto {
+	position: relative !important;
+	margin-left: 70px !important;
+	bottom: 32px !important;
+}
+.bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+}
+.bx-wrapper .bx-controls-auto .bx-stop,
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	position: relative;
+	font-size: 11px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
+
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
+
+}	
+
+/* --- Product --- */
+
+/* The main image of product */
+.pcs_image_link {
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	background-size: cover;
+}
+
+
+/* --- Image info --- */
+
+.pcs_circle, .pcs_square {
+	display: inline-block;
+	border-radius: 300px;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	text-align: center;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);	
+}
+.pcs_image_link:hover .pcs_circle, .pcs_image_link:hover  .pcs_block {
+    -webkit-animation: pulselogo 0.3s ease-in-out 0 1 alternate;
+   -moz-animation: pulselogo 0.3s ease-in-out 0 1 alternate;
+    -ms-animation: pulselogo 0.3s ease-in-out 0 1 alternate;
+     -o-animation: pulselogo 0.3s ease-in-out 0 1 alternate;
+        animation: pulselogo 0.3s ease-in-out 0 1 alternate;	
+}
+.pcs_padding {
+	padding: 30px;
+}
+
+.pcs_img_caption h3, .pcs_caption h3, .pcs_name {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 3px 0;
+	margin: 3px;
+}
+.pcs_img_caption p {
+	margin: 0;
+}
+
+/* -- Specific for circles -- */
+.pcs_circle .pcs_padding {
+	display: table; /* To center verticaly the content */
+	height: 200px; /* The same as the circle */
+	width: 100%;
+}
+.pcs_circle .pcs_center {
+	display: table-cell;	
+	vertical-align: middle;
+	text-align: center;
+	padding: 30px;
+}
+
+/* - The rectangle info - */
+.pcs_block {
+	position: absolute;
+	top: 0;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);	
+
+}
+.pcs_block_right {
+	right: 0;
+}
+.pcs_block .pcs_padding {
+	padding: 15px 30px;
+}
+
+/* - The square info - */
+.pcs_square {
+	border-radius: 0;
+}
+
+
+/* --- Full caption cover --- */
+
+.pcs_caption h3 {
+	margin-top: 15px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.pcs_caption h3 a {
+	color: inherit;
+}
+.pcs_price {
+
+}
+.pcs_price strong {
+	display: block;
+	line-height: 1.2em
+}
+.pcs_price strike {
+	font-size: .6em;
+}
+
+
+
+
+
+@keyframes pulselogo {
+    0% { 
+            transform: scale(1); }
+    50%{ 
+            transform: scale(1.2);
+    }
+    100% { 
+            transform: scale(1);
+    }
+}
+
+
+
+
+.cs-style-4 li {
+-webkit-perspective: 1700px;
+-moz-perspective: 1700px;
+perspective: 1700px;
+-webkit-perspective-origin: 0 50%;
+-moz-perspective-origin: 0 50%;
+perspective-origin: 0 50%;
+}
+
+.cs-style-4 figure {
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+
+.cs-style-4 figure > div {
+overflow: hidden;
+}
+
+.cs-style-4 figure img {
+-webkit-transition: -webkit-transform 0.4s;
+-moz-transition: -moz-transform 0.4s;
+transition: transform 0.4s;
+}
+
+.no-touch .cs-style-4 figure:hover img,
+.cs-style-4 figure.cs-hover img {
+-webkit-transform: translateX(25%);
+-moz-transform: translateX(25%);
+-ms-transform: translateX(25%);
+transform: translateX(25%);
+}
+
+.cs-style-4 figcaption {
+height: 100%;
+width: 50%;
+opacity: 0;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transform-origin: 0 0;
+-moz-transform-origin: 0 0;
+transform-origin: 0 0;
+-webkit-transform: rotateY(-90deg);
+-moz-transform: rotateY(-90deg);
+transform: rotateY(-90deg);
+-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-4 figure:hover figcaption,
+.cs-style-4 figure.cs-hover figcaption {
+opacity: 1;
+-webkit-transform: rotateY(0deg);
+-moz-transform: rotateY(0deg);
+transform: rotateY(0deg);
+-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-4 figcaption a {
+position: absolute;
+bottom: 20px;
+right: 20px;
+}
+
+
+
+
+
+/* ---- Media Queries ---- */
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	/* On cache la sidebar */
+	.pcs_sidebar {
+		display: none;
+	}
+	/* On redonne la largeur max au contenu image */
+	.pcs_main {
+		float: none;
+		margin: 0 !important;
+		width: 100% !important;
+	}
+
+	/* On libère la hauteur forcée ddes images */
+	.pcs_product_inner {
+		height: auto !important;
+	}
+	/* On essaye de centrer à nv les cercles */
+	.pcs_circle {
+		margin-top: 5% !important;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	/* On cache la sidebar */
+	.pcs_sidebar {
+		display: none;
+	}
+	/* On redonne la largeur max au contenu image */
+	.pcs_main {
+		float: none;
+		margin: 0 !important;
+		width: 100% !important;
+		
+	}
+
+	/* On libère la hauteur forcée ddes images */
+	.pcs_product_inner {
+		height: auto !important;
+	}
+	/* On essaye de centrer à nv les cercles */
+	.pcs_circle {
+		margin-top: 5% !important;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	.pcs_image_link img {
+		/* on montre l'image pour qu'elle soit à l'echelle */
+		opacity: 1;
+	}
+
+}

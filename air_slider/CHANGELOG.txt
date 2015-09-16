@@ -1,0 +1,2 @@
+1.0	- return black if image are not jpeg, gif or png.
+0.9	- Initial release

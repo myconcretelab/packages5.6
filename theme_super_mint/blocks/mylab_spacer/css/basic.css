@@ -1,0 +1,8 @@
+p.ml-spacer { 
+  text-align:center; /* centrage horizontal d'un élément en-ligne */ 
+  margin: 0;
+  padding: 0;
+}
+p.ml-spacer img { 
+  vertical-align:middle;
+}

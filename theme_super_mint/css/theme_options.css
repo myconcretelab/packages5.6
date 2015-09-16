@@ -1,0 +1,370 @@
+table.entry-form {
+	border-collapse:collapse !important;
+}
+small.quiet {
+	color:#bbb;
+	font-size:10px;
+	display:block;
+	float:right;
+	text-align:right;
+}
+select {
+padding: 2px;
+height: 2em;
+font-size: 11px;
+}
+.theme-options-table select {
+min-width: 200px;
+width: auto !important;
+width: 200px;
+}
+
+div.ccm-dashboard-inner {
+padding:0 !important;
+}
+input, input[type="password"], input[type="search"], input[type="text"] {
+	border: 1px solid #DFDFDF;
+	padding: 3px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+
+}
+
+.theme-options-table th {
+	width: 250px;
+}
+.accordion th {
+	width: 210px;
+}
+
+.theme-options-table p.description {
+	margin: 0 0 5px;
+	color: #000;
+	font-style: normal;
+}
+.theme-options-table tr {
+	position: releative;
+}
+.theme-options-table td {
+	padding: 15px;
+	overflow:visible;
+	position: releative;
+}
+
+.theme-options-table input[type="checkbox"],.theme-options-table input[type="radio"],.meta-box-item input[type="checkbox"],.meta-box-item input[type="radio"]
+	{
+	margin-right: 10px;
+}
+
+.theme-options-table textarea {
+	width: 80%;
+	*width:400px !important;
+}
+
+.theme-options-table select {
+	min-width: 200px;
+	width:auto !important;
+	width:200px;
+}
+
+
+/*
+ * Accordions
+ */
+h3.ui-accordion-header {
+margin:24px 0 0 0 !important;
+}
+.ui-widget-content {
+	color:inherit;
+}
+.ui-widget {
+	font-family:inherit;
+}
+
+
+
+/*
+ * style for range input
+ */
+.range-input-wrap {
+	overflow:hidden;
+	padding-bottom: 5px;
+}
+.range-input-wrap .slider {
+	background-color: #fff;
+	height: 9px;
+	position: relative;
+	cursor: pointer;
+	border: 1px solid #333;
+	width: 150px;
+	float: left;
+	clear: right;
+	margin-top: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: inset 0 0 8px #000;
+	-moz-box-shadow: inset 0 0 8px #000;
+	-webkit-box-shadow: inset 0 0 8px #000;
+}
+.range-input-wrap .progress {
+	height: 9px;
+	background-color: #eee;
+	display: none;
+	opacity: 0.6;
+}
+.range-input-wrap .handle {
+	background-color: #efefef;
+	height: 20px;
+	width: 20px;
+	top: -8px;
+	position: absolute;
+	display: block;
+	margin-top: 1px;
+	border: 1px solid #000;
+	cursor: move;
+	box-shadow: 0 0 6px #000;
+	-moz-box-shadow: 0 0 6px #000;
+	-webkit-box-shadow: 0 0 6px #000;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.range-input-wrap .range {
+	border: 1px solid #DFDFDF;
+	float: left;
+	margin: 3px 0 0 15px;
+	padding: 3px;
+	text-align: center;
+	width: 50px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.range-input-wrap span {
+	padding:5px;
+	float: left;
+}
+/*
+ * style for measurement input
+ */
+.measurement-wrap select {
+	margin: 3px 0 0 5px !important;
+	width: 70px !important;
+	min-width:70px !important;
+}
+/*
+ * style for color input
+ */
+#mcolorpickerInput {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	padding: 0;
+}
+/*
+ * style for toggle button
+ */
+ .iPhoneCheckContainer {
+	position: relative;
+	height: 27px;
+	cursor: pointer;
+	overflow: hidden;
+	width: 70px;
+
+}
+.iPhoneCheckContainer input {
+	position: absolute;
+	top: 5px;
+	left: 30px;
+	opacity: 0;
+	-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.iPhoneCheckContainer label {
+	white-space: nowrap;
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block;
+	height: 27px;
+	position: absolute;
+	width: 30px;
+	top: 0;
+	padding-top: 5px;
+	overflow: hidden;
+}
+.iPhoneCheckContainer, .iPhoneCheckContainer label {
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.iPhoneCheckDisabled {
+	opacity: 0.5;
+	-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
+label.iPhoneCheckLabelOn {
+	color: white;
+	background: url('../images/iphone-style-checkboxes/on.png') no-repeat;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+	left: 0;
+	padding-top: 5px;
+	width: 30px;
+	text-align:left;
+	float:none;
+}
+label.iPhoneCheckLabelOn span {
+	padding-left: 8px;
+	text-align:left;
+	float:none;
+}
+label.iPhoneCheckLabelOff {
+	color: #8b8b8b;
+	background: url('../images/iphone-style-checkboxes/off.png') no-repeat right 0;
+	text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.6);
+	text-align: right;
+	right: 0;
+	width: 30px;
+}
+label.iPhoneCheckLabelOff span {
+	padding-right: 8px;
+}
+.iPhoneCheckHandle {
+	display: block;
+	height: 27px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	background: url('../images/iphone-style-checkboxes/slider_left.png') no-repeat;
+	padding-left: 3px;
+	width: 20px;
+}
+.iPhoneCheckHandleRight {
+	height: 100%;
+	width: 100%;
+	padding-right: 3px;
+	background: url('../images/iphone-style-checkboxes/slider_right.png') no-repeat right 0;
+}
+.iPhoneCheckHandleCenter {
+	height: 100%;
+	width: 100%;
+	background: url('../images/iphone-style-checkboxes/slider_center.png');
+}
+/*
+ * style for tri toggle button
+ */
+ .iPhoneTriToggleContainer {
+	position: relative;
+	height: 27px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.iPhoneTriToggleContainer select {
+	position: absolute;
+	top: 5px;
+	left: 30px;
+	opacity: 0;
+	-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.iPhoneTriToggleContainer label {
+	white-space: nowrap;
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block;
+	height: 27px;
+	position: absolute;
+	width: auto;
+	top: 0;
+	padding-top: 5px;
+	overflow: hidden;
+}
+.iPhoneTriToggleContainer, .iPhoneTriToggleContainer label {
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.iPhoneTriToggleDisabled {
+	opacity: 0.5;
+	-ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
+label.iPhoneTriToggleLabelOn {
+	color: white;
+	background: url('../images/iphone-style-checkboxes/on.png') no-repeat;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+	left: 0;
+	padding-top: 5px;
+}
+label.iPhoneTriToggleLabelOn span {
+	padding-left: 8px;
+}
+label.iPhoneTriToggleLabelOff {
+	color: #8b8b8b;
+	background: url('../images/iphone-style-checkboxes/off.png') no-repeat right 0;
+	text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.6);
+	text-align: right;
+	right: 0;
+}
+label.iPhoneTriToggleLabelOff span {
+	padding-right: 8px;
+}
+.iPhoneTriToggleHandle {
+	display: block;
+	height: 27px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	background: url('../images/iphone-style-checkboxes/slider_left.png') no-repeat;
+	padding-left: 3px;
+}
+.iPhoneTriToggleHandleRight {
+	height: 100%;
+	width: 100%;
+	padding-right: 3px;
+	background: url('../images/iphone-style-checkboxes/slider_right.png') no-repeat right 0;
+}
+.iPhoneTriToggleHandleCenter {
+	height: 100%;
+	width: 100%;
+	background: url('../images/iphone-style-checkboxes/slider_center.png');
+}
+/*
+ * style for validator
+ */
+.validator-error {
+	padding:5px 0px 5px 15px;
+	color:red;
+}
+input[type="url"],input[type="number"],input[type="email"] {
+	-moz-border-radius:4px 4px 4px 4px;
+	border:1px solid #DFDFDF;
+}
+.validator-wrap .invalid {
+	border-color:red;
+}
+/*
+ * style for chosen
+ */
+select.chosen {
+	font-size: 15px !important;
+}
+
+#wpcontent select[multiple="true"], #wpcontent select[multiple="true"].chosen option, select[multiple="true"].chosen option {
+	min-width: 300px;
+	width:auto !important;
+	width:300px;
+}

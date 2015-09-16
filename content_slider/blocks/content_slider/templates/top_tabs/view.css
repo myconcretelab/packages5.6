@@ -1,0 +1,71 @@
+.top_tab_wrap {
+    padding:10px;
+    background:#555;
+    border-top:solid 1px #666;
+    border-right:solid 1px #666;
+    border-left:solid 1px #333;
+    border-bottom:solid 1px #333;    
+}
+.top_tab_wrap ul.top_tabs{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.top_tab_wrap ul.top_tabs li{
+    margin:0 3px;
+    display:block;  
+    cursor:pointer;
+    float:left;
+    width:auto;
+    padding:10px;
+    background:#333;
+    border:solid 1px #444;
+    font:12px sans-serif;
+    line-height:14px;
+    letter-spacing:1px;
+    color: #fff;
+}
+.top_tab_wrap ul.top_tabs li.first_tab{
+    margin:0 3px 0 0;
+}
+.top_tab_wrap ul.top_tabs li.active{
+    color:#000;
+    background:#fff url(images/tab.jpg) top left repeat-x;
+    border-bottom:solid 1px #fff;
+}
+
+/* For list inside a content */
+div.top-slides li li, div.slides ul ul  {
+    position:relative !important;
+    height:auto;
+    width:auto;
+
+}
+
+
+div.top-slides{
+    clear:both;
+    position:relative;
+    background:#fff;
+    border-right:solid 1px #444;
+    border-left:solid 1px #444;
+    border-bottom:solid 1px #444;
+}
+div.top-slides>ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    position:relative;
+}
+div.top-slides>ul>li{
+    display:block;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    position:absolute;
+}
+div.top-slides div.inner_slide{
+    padding:1px;
+    background:#fff url(images/tabs-bottom.jpg) bottom left repeat-x;
+}

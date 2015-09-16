@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+  <table name="SilenceThemeOptionsPreset">
+    <field name="pID" type="I"/>
+    <field name="option_key" type="C" size="255"/>
+    <field name="option_value" type="X"/>
+  </table>
+  <table name="SilenceThemePreset">
+    <field name="pID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="name" type="C" size="255"/>
+    <field name="creator" type="I"/>
+    <field name="active" type="L"/>
+  </table>
+</schema>

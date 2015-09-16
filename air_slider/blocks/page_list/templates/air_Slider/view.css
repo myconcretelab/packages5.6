@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** Hey, obviously you can customize each slide by taking her index (fisrt is 1) ****/
+
+#air_slider_banner_3 p,#air_slider_banner_3 h2,#air_slider_banner_3 em  {
+	display: inline-block;
+	padding: 10px;
+	background-color: rgba(134,204,204,.7);
+	color: #699594;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+
+
+}
+
+/**** Navigation ****/
+
+
+.airslider .next-slide, .airslider .previous-slide {
+	width: 34px; height: 34px;
+	position: absolute;
+	background-position: center;
+	z-index: 100;
+}
+.airslider .next-slide {
+	right: -40px;
+	background-image: url(images/next.png);
+	background-repeat: no-repeat;
+}
+.airslider .previous-slide {
+	left: -40px;
+	background-image: url(images/previous.png);
+	background-repeat: no-repeat;
+}
+.airslider .next-slide:hover {
+	background-image: url(images/next_o.png);
+}
+.airslider .previous-slide:hover {
+	background-image: url(images/previous_o.png);
+
+}
+
+/**** Structure ****/
+
+.airslider {
+	margin: 0 0 20px;
+	overflow: hidden;
+	position: relative;
+}
+.airslider .navigation {
+	position: relative;
+	margin: 0 auto;
+}
+
+.airslider .background {
+	background: #F5F5F5;
+	height: 470px;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.airslider .image {
+	background-repeat: no-repeat;
+	background-position:  center;
+	height: 470px;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+/**** Text ****/
+
+.airslider ul {
+	opacity: 0;
+	list-style-type: none;
+	height: 470px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+}
+.airslider li {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 4;
+}
+
+/** Manage the caption position **/
+
+.airslider li.left {
+	left: 0;
+}
+.airslider li.right {
+	right: 0;
+}
+.airslider .text {
+	position: absolute;
+	left: 60px;
+	top: 20px;
+	padding-top: 100px;
+	width: 400px;
+	
+}
+.airslider .text.right, .airslider p.right {
+	right: 60px; left: auto;
+	text-align: right;
+
+}
+
+/* The background color is analysed and : 
+	if the color is dark, airslider will add a class 'whitetext' on the text
+	if the color is light, 'darktext' is added
+*/
+
+.airslider .whitetext, .airslider .whitetext * {
+	color:#eee;
+}
+.airslider .whitetext a {
+	text-decoration: underline;
+}
+.airslider .darktext, .airslider .darktext * {
+	color:#555;
+}
+.airslider .darktext a {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+/***** Button ****/
+
+.airslider a.button {
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#6b6b6b 0%,
+		#000000);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#6b6b6b),
+		to(#000000));
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+.airslider a.button:hover {
+	opacity: .7;
+	text-decoration: none;;
+}

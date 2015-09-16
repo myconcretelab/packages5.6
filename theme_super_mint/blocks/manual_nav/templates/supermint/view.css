@@ -1,0 +1,22 @@
+.secondary-nav {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+.secondary-nav li {
+  float: left;
+  padding: 0;
+  padding-right: 10px;
+  margin: 0;
+  margin-right: 10px;
+  border-right: 1px solid rgba(150,150,150,.3);
+  list-style: none;
+}
+.secondary-nav li:last-child {
+  border-right:none;
+}
+.secondary-nav li a {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #ddd;
+}

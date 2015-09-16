@@ -1,0 +1,12 @@
+1.2.4	- Fix compatibility with 5.6
+1.2.3	- Fix the URL file-access disabled on some server configuration
+1.2.2	- Fix the blank description issue.
+1.2.1	- Fix bugs with stID & height of simple slide 
+1.2	- Work now with stacks in place of Scrapbooks
+	- gzipped all javascript in one file
+1.1.2	- Fixed small bug with thumbnails.
+1.1.1	- Added the management of additional files into view.php
+1.1 	- Changed in view.php $bv->render($b, 'view')
+	- JS Source added
+	
+1.0 	- Initial Release

@@ -1,0 +1,12 @@
+ /*Used to injet css into Tiny */
+ .white-3d {
+    color: #ffffff;
+    font-weight: 700;
+    border:0;
+    white-space:nowrap;
+    text-shadow: rgb(187, 187, 187) 0px 1px 0px, rgb(181, 181, 181) 0px 2px 0px, rgb(172, 172, 172) 0px 3px 0px, rgb(160, 160, 160) 0px 4px 0px, rgb(145, 145, 145) 0px 5px 0px, rgb(127, 127, 127) 0px 6px 0px, rgba(0, 0, 0, 0.199219) 0px 7px 1px, rgba(0, 0, 0, 0.296875) 0px 8px 6px;
+}
+span.white-3d {
+	position: relative;
+	top:-3px;
+}

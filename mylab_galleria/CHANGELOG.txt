@@ -1,0 +1,19 @@
+2.2.2	- Fix the slideshow option that doesn't work.
+2.2.1	- Disable the gallery during editing
+2.2	- Add Background color option
+	- re-enable lightbox option
+	- Fix the weird image during gallery loading.
+2.1.1	- Fix small bug with themes
+	- If imapePan is enabled, the main image is not cropped.
+2.1 	- Galleria 1.2.6 script
+	- Lightbox features
+	- Extended theme feature
+	- New administration
+	- improved script
+2.0.1 	- Keep Fileset sorted
+2.0 	- The package loose her sortable functionality. Just keep a galeria Jquery
+1.2 	- getSortedImages() return an array(easier for personal template). 
+	- Correct bug when you leave blank the options's input.
+	- Test if the file is a image (not so nice for the speed). 
+1.1 	- Now is able to show all media thumbnails. Restricted number of options
+1.0 - Initial Release

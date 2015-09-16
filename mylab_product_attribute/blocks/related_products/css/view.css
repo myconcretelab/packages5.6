@@ -1,0 +1,11 @@
+.rp_product {
+	float: left;
+	text-align: center;
+}
+.rp_product_inner {
+	padding: 15px;
+}
+
+.rp_product img {
+	max-width: 100%;
+}

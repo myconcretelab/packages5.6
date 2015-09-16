@@ -1,0 +1,115 @@
+.demo_wrapper {
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.skin11.left .tabs_header {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+	.skin11.left .tab_header_item {
+		display: block;
+	}
+		.skin11.left .tab_header_item a {
+			outline: 0;
+		}
+ .skin11.left .tab_content {
+	display: none;
+}
+/* end left */
+
+
+.skin11.left.tabs_wrapper {
+}
+
+.skin11.left .tabs_header {
+	overflow: visible;
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+}
+ .skin11.left .tab_header_item {
+	margin-top: 0px;
+	margin-right: 5px;
+	position: relative;
+}
+ .skin11.left .tab_header_item.tab_selected {
+}
+ .skin11.left .tab_header_item.tab_selected a {
+	display: block;
+	width: 130px;
+	padding-right: 15px;
+	background-color: #fef7f7;
+	border: 1px solid #e8b6b6;
+	border-right: none;
+	color: #333;
+	border-radius: 8px 0px 0px 8px;
+	-moz-border-radius: 8px 0px 0px 8px;
+}
+ .skin11.left .tab_header_item.tab_selected span.header_item_before {
+    background: url("images/bottom-right.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: -1px;
+    top: -11px;
+    width: 18px;
+}
+ .skin11.left .tab_header_item.tab_selected span.header_item_after {
+    background: url("images/top-right.png") no-repeat scroll 0 0 transparent;
+    bottom: -12px;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: 1px;
+    width: 16px;
+}
+li.tab_header_item.last_tab.tab_selected span.header_item_after {
+/*	background: none;*/
+}
+li.tab_header_item.first_tab.tab_selected span.header_item_before {
+	background: none; 
+}
+ .skin11.left .tab_header_item a {
+	display: block;
+	text-align: left;
+	padding: 10px;
+	margin: 0px 5px 5px 0px;
+	width: 128px;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	outline: 0;
+    border-radius: 8px 0px 0px 8px;
+    -moz-border-radius: 8px 0px 0px 8px;
+    border: 1px solid #DDDDDD;
+    font-weight: bold;
+	color: #c50000;
+}
+ .skin11.left .tab_header_item span.header_item_before {
+	display: none;
+	float: left;
+	width: 9px;
+	height: 32px;
+}
+ .skin11.left .tab_header_item span.header_item_after {
+	display: none;
+	float: left;
+	width: 9px;
+	height: 32px;
+}
+ .skin11.left .content_holder {
+	350
+	color: #333;
+	padding: 5px 30px;
+	-moz-border-radius-bottomright: 8px;
+	border-radius-bottomright: 8px;
+	-moz-border-radius-topright: 8px;
+	border-radius-topright: 8px;
+	margin-left: 155px;
+	min-height: 170px;
+	background-color: #fef7f7;
+	border: 1px solid #e8b6b6;
+}
+
+
+

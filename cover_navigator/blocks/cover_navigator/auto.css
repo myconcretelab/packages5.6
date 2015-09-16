@@ -1,0 +1,15 @@
+
+.ads_edit tr > td {border-bottom:1px solid #cccccc; padding:15px !important;}
+.w-border td {border:none}	 
+
+
+.logo .file, .logo .title, .logo .desc  {
+	float:left;
+	width:33%;
+}
+.logo .title {
+	
+}
+.logo .desc {
+	
+}

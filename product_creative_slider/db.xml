@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+  <table name="CoreCommerceCreativeSlider">
+    <field name="csID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="name" type="C" size="255"/>
+  </table>
+  <table name="CoreCommerceCreativeSlides">
+    <field name="cssID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="csID" type="I" size="10" />
+    <field name="specs" type="X" />
+    <!--
+    <field name="productsID" type="C" size="255" />
+    <field name="richContent" type="X" />
+    <field name="specs" type="X" />
+    <field name="structure" type="C" size="15" />
+    <field name="options" type="X" />
+    <field name="lateralContentDisplay" type="C" size="25" />
+    <field name="contentWidth" type="C" size="15" />    
+    <field name="productImageInfo" type="C" size="45" />    
+    <field name="productImageCaption" type="C" size="45" />    
+    <field name="contentBg" type="c" size="7" />
+    <field name="contentBgImg" type="I" size="4" />
+    -->
+  </table>
+</schema>

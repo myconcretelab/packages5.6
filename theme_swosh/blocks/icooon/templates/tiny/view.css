@@ -1,0 +1,17 @@
+.icooon-tiny i {
+	float: left;
+	margin-right: 7px;
+	line-height: inherit;
+}
+.icooon-tiny p {
+	margin-left: 7%;
+}
+.icooon-tiny .left {
+	float: left;
+}
+.icooon-tiny.padding-3x p {
+	padding-top:10px;
+}
+.icooon-tiny.padding-4x p {
+	padding-top:20px;
+}

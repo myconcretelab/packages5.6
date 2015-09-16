@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btMultimediaBox">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="MBtemplate"		type="C" size="10"></field>
+		<field name="thumb_size"		type="C" size="10"></field>
+		<field name="template_options" 		type="X"></field>
+		<field name="options" 			type="X"></field>
+		<field name="media_options" 			type="X"></field>
+		<field name="slideshow" 		type="I"></field>
+		
+		<field name="types" 		type="X"></field>
+		<field name="medias" 		type="X"></field>
+		<field name="titles" 		type="X"></field>
+		<field name="descs" 		type="X"></field>
+		<field name="widths" 		type="X"></field>
+		<field name="heights" 		type="X"></field>
+		<field name="thumbs"		type="X"></field>
+	</table>
+</schema>

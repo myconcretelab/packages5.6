@@ -1,0 +1,50 @@
+ul.mmb-imageNav {
+    list-style:none; 
+}
+    li.mmb-item {
+        display:block;
+        float:left;
+        margin:5px;
+        list-style:none;
+    }
+    li.mmb-item a {
+        position:relative;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+        background:#f2f2f2;
+        display:block;
+        text-align:center;
+        -webkit-box-shadow:1px 1px 3px #787878;
+        -moz-box-shadow:0px 0px 3px #787878;
+    }
+    li.mmb-item a:hover {
+        -webkit-box-shadow:0px 0px 1px #787878;
+        -moz-box-shadow:0px 0px 1px #787878;
+    }
+li.mmb-item a span {
+        position:absolute;
+        left:0; top:0;
+}
+
+.tooltip {
+	display:none;
+	font-size:12px;
+	width:160px;
+	padding:25px;
+	color:#fff;	
+    	background-image: url(images/light.png);
+	background-repeat: repeat-x;
+	background-color:#999;
+	background-color:rgba(0,0,0,.2);
+	border:1px solid rgba(150,150,150,.2);
+	-moz-border-radius: 2px; 
+	-webkit-border-radius: 2px; 
+	border-radius: 2px; 
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+h4.mmb-tooltip-title, p.mmb-tooltip-desc {
+    color:#fff !important;
+}

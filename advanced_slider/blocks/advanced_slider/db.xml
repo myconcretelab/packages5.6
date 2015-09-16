@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btAdvancedSlider">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="width" 			type="I"></field>
+		<field name="height" 			type="I"></field>
+		<field name="aspectRatio" 			type="I"></field>
+
+
+		
+		<field name="gallery_width" 	type="C" size="15"></field>
+		<field name="gallery_height" type="C" size="15"></field>
+		<field name="scaleType" 	type="C" size="25"></field>
+		<field name="slideshowDelay" 		type="I"></field>
+		<field name="slidesPreloaded" 		type="I"></field>
+		<field name="thumbnailSlide" 		type="I"></field>
+		<field name="caption"	 		type="X"></field>
+		<field name="options"			type="X"></field>
+		<field name="imagePID"			type="X"></field>
+		<field name="globalImagePID"		type="X"></field>
+		<field name="skin" 		type="C" size="25"></field>
+		<field name="scrollbarSkin" 	type="C" size="25"></field>
+		<field name="thumbnailsType" 	type="C" size="25"></field>
+		<field name="thumbnailOrientation" 	type="C" size="25"></field>
+		<field name="target_link" 	type="C" size="25"></field>
+
+		<field name="fsID" 		type="I"></field>
+		<field name="fsTitle" 		type="C" size="15"></field>
+		<field name="linkPageID"	type="X"></field>
+		<field name="link" 		type="X"></field>
+		<field name="fileLink"		type="X"></field>
+	</table>
+	<table name="btAdvancedSliderPresets">
+		<field name="effectPresetID" type="I">
+			<KEY/>
+			<autoincrement />
+		</field>
+		<field name="options"			type="X"></field>
+		<field name="title"			type="X"></field>
+	</table>
+</schema>

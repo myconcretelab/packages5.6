@@ -1,0 +1,75 @@
+ .skin6.bottom.tabs_wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 40px;
+}
+ .skin6.bottom .tabs_header {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	bottom: 0px;
+	list-style: none;
+}
+ .skin6.bottom .tab_header_item {
+	float: left;
+	margin-left: 5px;
+}
+ .skin6.bottom .tab_selected {
+	background: blue;
+	color: white;
+}
+ .skin6.bottom .tab_content {
+	display: none;
+	margin-top: 0px;
+	350
+	color: #777;
+	padding: 10px 30px;
+}
+	 .skin6.bottom .tab_content p {
+		margin-top: 0px;
+	}
+/* end bottom */
+
+
+ .skin6.bottom.tabs_wrapper {
+	background: #eee;
+	padding-top: 5px;
+	border: 1px solid #ddd;
+}
+ .skin6.bottom .tabs_header {
+	overflow: hidden;
+	padding-top: 0px;
+	height: 50px;
+	background: #eee;
+	width: 100%;
+	margin: 0px;
+	padding: 0 0 0 5px;
+}
+ .skin6.bottom .content_holder {
+	background: white;
+	margin: 0 5px 0;
+	margin-bottom: 40px;
+}
+ .skin6.bottom .tab_header_item {
+	margin-left: 0px;
+	background: url(images/tabs_border.png) right bottom no-repeat;
+	position: relative;
+	height: 30px;
+	margin-top: 11px;
+}
+ .skin6.bottom .tab_header_item.tab_selected a {
+	color: #4580b4;
+}
+ .skin6.bottom .tab_header_item.tab_selected {
+	background: white;
+}
+ .skin6.bottom .tab_header_item a {
+	padding: 0px 20px;
+	font: bold 12px/28px Arial, Helvetica, sans-serif;
+	color: #333;
+	text-decoration: none;
+	outline: 0;
+}
+
+
+

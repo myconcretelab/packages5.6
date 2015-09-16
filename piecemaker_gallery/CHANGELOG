@@ -1,0 +1,8 @@
+2.0.4	- Fix compatibility with 5.6
+2.0.3	- Add Accordion js to fix compatibility with C5.5
+2.0.2	- Remove the "False" issue on Firefox when a preset is added.
+2.0.1	- Changed the loading of CSS
+2.0 	- A new Gallery is born !
+1.1.1 	- Keep fileset sorted
+1.1 	- Add the traditional cheks before saving.
+1.0 	- Initial Release

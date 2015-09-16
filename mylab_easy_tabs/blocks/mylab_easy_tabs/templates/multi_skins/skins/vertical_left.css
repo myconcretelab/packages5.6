@@ -1,0 +1,23 @@
+.tabs_header {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid red;
+	width: 150px;
+	float: left;
+}
+	.tab_header_item {
+		display: block;
+		margin-left: 5px;
+		border: 1px solid green;
+	}
+		.tab_header_item a {
+			outline: 0;
+		}
+.tab_selected {
+	background: red;
+}
+.tab_content {
+	margin-left: 150px;
+	display: none;
+}
+

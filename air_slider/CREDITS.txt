@@ -1,0 +1,5 @@
+## Credits ##
+
+Image Helper Class Code:
+	Jordanlev & Kirk Roberts
+	-> http://www.concrete5.org/community/forums/customizing_c5/getthumbnail-function-fill-out-dimensions/#89293

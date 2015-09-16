@@ -1,0 +1,18 @@
+1.1.3  	- Add the missing option bullet show on the header slider
+1.1.2	- Fix a the fatal error when install on 5.6.1
+1.1.1	- Fix the full width slider button's url issue
+1.1	- Add multiple theme choice on install
+	- Fix responsive slider compatibilities
+	- Add plain page types
+	- multiple bugs fixe
+1.0.4	- Fix 5.6 compatibilities
+	- Fix 3 columns slider slideshow
+	- Fix the 'go' url button on 3 columns slider 
+1.0.3	- Fix other color bugs
+1.0.2	- Fix the Navigation color bug.
+1.0.1	- Change the color librairies
+	- Fix the E_NOTICE on three columns page list
+1.0 	- Add a page list template
+	- Fix some minor problem on ie.7
+	- Fix compatibility with CSS3 on old browser
+0.9 	- Initial release

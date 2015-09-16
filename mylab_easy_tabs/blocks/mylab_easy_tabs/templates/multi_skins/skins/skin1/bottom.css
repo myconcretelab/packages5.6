@@ -1,0 +1,97 @@
+.skin1.bottom.tabs_wrapper {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.skin1.bottom .tabs_header {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+}
+.skin1.bottom .tab_header_item {
+	display: inline;
+	margin-left: 5px;
+}
+.skin1.bottom .tab_selected {
+	color: white;
+}
+.skin1.bottom .tab_content {
+	display: none;
+	margin-top: 0px;
+}
+	.skin1.bottom .tab_content p {
+		margin-top: 0px;
+	}
+
+
+
+/* skin2 */
+.skin1.bottom.tabs_wrapper {
+	border: 1px solid #ddd;
+	padding-top: 10px;
+	border-bottom: 0px;
+}
+
+.skin1.bottom .tabs_header {
+	overflow: visible;
+	min-height: 40px;
+/*	padding-left: 9px; */
+	border-bottom: 4px solid #CD0000;
+	background: url(images/tabs_header_bottom.png) 0px top repeat-x;
+	width: 100%;
+}
+.skin1.bottom .tab_header_item {
+	margin-left: 1px;
+	background: none;
+	position: relative;
+	bottom: -11px;
+	padding-bottom: 22px;
+	padding-top: 12px;
+}
+.skin1.bottom .tab_header_item.tab_selected {
+	background: #CD0000;
+	-webkit-border-top-right-radius: 9px;
+	-webkit-border-top-left-radius: 9px;
+	-moz-border-radius-topright: 9px;
+	-moz-border-radius-topleft: 9px;
+	border-top-right-radius: 9px;
+	border-top-left-radius: 9px;
+}
+.skin1.bottom .tab_header_item.tab_selected a {
+	color: #fff;
+}
+.skin1.bottom .tab_header_item.tab_selected span.header_item_before {
+	position: absolute;
+	bottom: 0px;
+	left: -9px;
+	width: 9px;
+	height: 9px;
+	display: block;
+	background: url(images/header_item_top_right.png) 0px 0px no-repeat;
+}
+.skin1.bottom .tab_header_item.tab_selected span.header_item_after {
+	position: absolute;
+	right: -9px;
+	bottom: 0px;
+	width: 9px;
+	height: 9px;
+	display: block;
+	background: url(images/header_item_top_left.png) 0px 0px no-repeat;
+}
+.skin1.bottom .tab_header_item a {
+	padding: 0px 20px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color: #333;
+	text-decoration: none;
+	outline: 0;
+}
+.skin1.bottom .tab_content {
+
+	padding: 5px 30px;
+}
+
+
+

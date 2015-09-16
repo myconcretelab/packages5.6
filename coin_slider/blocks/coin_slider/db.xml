@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btCoinSLider">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" 		type="I"></field>
+		<field name="fsTitle" 		type="C" size="15"></field>
+		<field name="effect" 		type="C" size="15"></field>
+		<field name="spw" 		type="I"></field>
+		<field name="sph"	 	type="I"></field>
+		<field name="delay" 		type="I"></field>
+		<field name="sDelay" 		type="I"></field>		
+		<field name="opacity" 		type="F"></field>		
+		<field name="titleSpeed" 	type="I"></field>		
+		<field name="options"		type="X"></field>
+		
+		<field name="linkPageID"	type="X"></field>
+		<field name="link" 		type="X"></field>
+		<field name="fileLink"		type="X"></field>
+	</table>
+</schema>

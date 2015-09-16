@@ -1,0 +1,115 @@
+.demo_wrapper {
+	padding: 5px;
+}
+ .skin12.right .tabs_header {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+	.skin12.right .tab_header_item {
+		display: block;
+	}
+		.skin12.right .tab_header_item a {
+			outline: 0;
+		}
+ .skin12.right .tab_content {
+	display: none;
+}
+/* end left */
+
+
+.skin12.right.tabs_wrapper {
+}
+
+.skin12.right .tabs_header {
+	overflow: visible;
+	text-align: center;
+	padding-top: 0px;
+}
+ .skin12.right .tab_header_item {
+	margin-top: 0px;
+	position: relative;
+}
+ .skin12.right .tab_header_item.tab_selected {
+}
+ .skin12.right .tab_header_item.tab_selected a {
+	display: block;
+	width: 132px;
+	margin-left: 0px;
+	padding-left: 16px;
+	background-color: #F5FAFE;
+	border: 1px solid #B6D2E8;
+	border-left: none;
+	color: #333;
+	border-radius: 0px 8px 8px 0px;
+	-moz-border-radius: 0px 8px 8px 0px;
+}
+ .skin12.right .tab_header_item.tab_selected span.header_item_before {
+	display: block;
+	width: 18px;
+	height: 14px;
+	position: absolute;
+	left: -5px;
+	top: -11px;
+	background: url(images/bottom-left.png) no-repeat;
+}
+ .skin12.right .tab_header_item.tab_selected span.header_item_after {
+	display: block;
+	width: 16px;
+	height: 17px;
+	position: absolute;
+	left: -4px;
+	bottom: -11px;
+	background: url(images/top-left.png) no-repeat;
+}
+.skin12.right li.tab_header_item.last_tab.tab_selected span.header_item_after {
+/*	background: none; */
+}
+.skin12.right li.tab_header_item.first_tab.tab_selected span.header_item_before {
+	background: none; 	
+}
+ .skin12.right .tab_header_item a {
+	display: block;
+	text-align: left;
+	padding: 10px;
+	margin: 0px 5px 5px 5px;
+	width: 131px;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	color: #0081E2;
+	text-decoration: none;
+	outline: 0;
+    border-radius: 8px;
+    -moz-border-radius: 8px	;
+    border: 1px solid #DDDDDD;
+    font-weight: bold;
+    color:#333333;
+	
+}
+ .skin12.right .tab_header_item span.header_item_before {
+	display: none;
+	float: left;
+	width: 9px;
+	height: 32px;
+}
+ .skin12.right .tab_header_item span.header_item_after {
+	display: none;
+	float: left;
+	width: 9px;
+	height: 32px;
+}
+ .skin12.right .content_holder {
+	350
+	color: #777;
+	padding: 5px 30px;
+	-moz-border-radius-bottomleft: 8px;
+	border-radius-bottomleft: 8px;
+	-moz-border-radius-topleft: 8px;
+	border-radius-topleft: 8px;
+	margin-right: 163px;
+	min-height: 170px;
+	background-color: #F5FAFE;
+	border: 1px solid #B6D2E8;
+}
+
+
+

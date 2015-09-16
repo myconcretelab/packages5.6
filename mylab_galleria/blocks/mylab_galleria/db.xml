@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btMylabGalleria">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="width" 		type="C" size="15"></field>
+		<field name="height" 		type="C" size="15"></field>
+		<field name="fsID" 		type="I"></field>
+		<field name="fsTitle" 		type="C" size="255"></field>
+		<field name="fsDescription" 	type="X"></field>
+		<field name="carousel"	 	type="L"></field>
+		<field name="carouselFollow" 	type="L"></field>
+		<field name="carouselSpeed" 	type="I"></field>
+		<field name="carouselSteps" 	type="C" size="15"></field>
+		<field name="history" 		type="L"></field>
+		<field name="imageCrop" 	type="L"></field>
+		<field name="imageCropPhp" 	type="L"></field>
+		<field name="imagePan" 		type="L"></field>
+
+		<field name="lightbox" 		type="L"></field>
+		<field name="lightboxWidth" 	type="I"></field>
+		<field name="lightboxHeight" 	type="I"></field>
+		<field name="thumbWidth" 	type="I"></field>
+		<field name="thumbHeight" 	type="I"></field>
+		<field name="imagePan" 		type="L"></field>
+
+		<field name="imageMargin" 	type="I"></field>
+		<field name="thumbMargin" 	type="I"></field>
+		<field name="thumbCrop" 	type="L"></field>
+		<field name="maxScaleRatio" 	type="F"></field>
+		<field name="popupLinks" 	type="L"></field>
+		<field name="preload" 		type="L"></field>
+		<field name="thumbnails" 	type="L"></field>
+		<field name="transition" 	type="C" size="15"></field>
+		<field name="transitionSpeed" 	type="I"></field>
+		<field name="slideShow" 	type="L"></field>
+		<field name="slideShowSpeed" 	type="I"></field>
+		<field name="theme"	 	type="C" size="50"></field>
+		<field name="myColor"	 	type="C" size="15"></field>
+	</table>
+	<table name="btSortedFiles">
+		<field name="fsID" type="I"></field>
+		<field name="fID" type="I"></field>
+		<field name="place" type="I"></field>
+	</table>
+</schema>

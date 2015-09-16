@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btMylabCountdown">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="theDate" 		type="T"></field>
+		<field name="labels" 		type="X"></field>
+		<field name="label" 		type="X"></field>
+		<field name="elements" 		type="X"></field>
+		<field name="type" 		type="C" size="10"></field>
+	</table>
+</schema>

@@ -1,0 +1,114 @@
+
+
+
+
+/* REQUIRED for core functionality */
+
+.responsive-tabs__heading { display: none;
+}
+.responsive-tabs__list__item { display: inline;
+ cursor:pointer;
+}
+
+
+@media (max-width: 767px) {
+	.responsive-tabs__list { display: none;
+	}
+	.responsive-tabs__heading { display: block;
+	 cursor: pointer;
+	 }
+	.responsive-tabs__panel--closed-accordion-only { display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.responsive-tabs__panel--closed-accordion-only { display: block !important;
+	}
+}
+
+/* END - Required for core functionality */
+
+
+/* OPTIONAL - Basic Skin */
+
+.rp-tabs { 
+	clear: both;
+	zoom: 1;
+}
+.rp-tabs:before,
+.rp-tabs:after {
+    content: "";
+
+    display: table;
+
+} 
+.rp-tabs:after {
+    clear: both;
+}
+
+/*Inside a content tabs */
+.rp-tabs .padding {
+	padding: 10px;
+}
+.rp-tabs .rp-image {
+	float: left;
+}
+.rp-tabs .rp-infos {
+	float: left;
+}
+.rp-infos {
+	margin-left: 5%;
+}
+.responsive-tabs__heading--active:focus,
+.responsive-tabs__list__item--active:focus { outline: none !important;
+}
+
+.responsive-tabs__list { font-size: 12px;
+ margin: 15px 0 0 0;
+ padding: 0;
+ border-bottom: 1px solid #ddd;
+ padding-bottom:1px;
+ line-height: 1em;
+}
+.responsive-tabs__list__item { 
+	background: #eee;
+	 padding: 5px 10px;
+	  margin-right: 5px;
+	  margin-left: 0;
+	 border-top-left-radius: 2px;
+	 border-top-right-radius: 2px;
+	 border: 1px solid #ddd;
+	 }
+.responsive-tabs__list__item:hover {background: #efefef }
+.responsive-tabs__list__item--active, 
+.responsive-tabs__list__item--active:hover {  background: #fff;
+ border-bottom-color: #fff;
+}
+
+.responsive-tabs__panel { margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+	.responsive-tabs__heading { 
+		padding: 0.5em;
+		border-radius: 5px;
+		border: 1px solid #ccc;
+		background: #ddd;
+		position: relative;
+
+	}
+
+	.responsive-tabs__heading:after {
+
+
+	}
+	.responsive-tabs__heading:hover,
+	.responsive-tabs__heading--active:hover { background-color: #efefef}
+	.responsive-tabs__heading--active { background: #fff;
+	}
+	.responsive-tabs__heading--active:after {
+
+	 }
+}
+
+/* END - Optional - Basic Skin */

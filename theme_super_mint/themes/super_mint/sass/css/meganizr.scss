@@ -1,0 +1,343 @@
+/* ###################################################################
+	
+	ITEM NAME  : Meganizr Responsive CSS3 Mega Menu
+	ITEM URI   : http://codecanyon.net/item/meganizr-responsive-css3-mega-menu/2629504
+	VERSION    : 1.1.0
+	AUTHOR     : Valeriu Timbuc
+	AUTHOR URI : http://vtimbuc.net
+	LICENSE    : Purchased License - Regular or Extended - http://codecanyon.net/licenses/regular_extended
+
+################################################################### */
+
+
+
+/* ###################################################################
+
+	// 1. RESET STYLES
+	// 2. NAVIGATION BAR STYLES
+	// 3. SEARCH FORM
+	// 4. DROPDOWN
+	// 5. CONTENT STYLES
+	// 6. RESPONSIVE
+	// 7. EXTRA COLOR STYLES
+
+################################################################### */
+
+
+
+/* // 1. RESET STYLES */
+/* ################################################################ */
+.meganizr a { text-decoration: none; text-align:left !important; }
+.meganizr li a { border:none !important}
+/* // 2. NAVIGATION BAR STYLES */
+/* ################################################################ */
+.meganizr {
+	position: relative;
+	z-index: 500;
+	clear: both;
+	width: 100%;
+	height: 36px;
+}
+
+.meganizr:before,
+.meganizr:after {
+	content: '';
+	clear: both;
+}
+
+/* Nav List */
+.meganizr > li {
+	position: relative;
+	@include inline-block;
+	height: 36px;
+}
+
+.meganizr > li.mzr-full-width { position: static; }
+
+.meganizr > li.mzr-align-right {
+	float: right;
+	border-right: none;
+}
+
+/* Nav Links */
+.meganizr > li > a, 
+.meganizr > li > span, 
+.meganizr > li > span 
+{
+	position: relative;
+	z-index: 550;
+	display: block;
+	line-height: 33px;
+
+	-webkit-transition: color .15s ease-in, background-image .2s ease-in;
+	-moz-transition: color .15s ease-in, background-image .2s ease-in;
+	-o-transition: color .15s ease-in, background-image .2s ease-in;
+	-ms-transition: color .15s ease-in, background-image .2s ease-in;
+	transition: color .15s ease-in, background-image .2s ease-in;
+}
+
+.meganizr > li > a:active {
+	color: #525252;
+
+	-webkit-transition: color 1ms;
+	-moz-transition: color 1ms;
+	-o-transition: color 1s;
+	-ms-transition: color 1s;
+	transition: color 1s;
+}
+
+.meganizr > li.mzr-drop:hover > a:after,
+.meganizr > li.mzr-drop > a.mzr-click:after,
+.meganizr > li.mzr-drop > span.mzr-click:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 38px;
+}
+
+.meganizr > li.mzr-drop:hover > a, 
+.meganizr > li.mzr-drop:hover > span,
+.meganizr > li.mzr-drop > a.mzr-click,
+.meganizr > li.mzr-drop > span.mzr-click 
+{ z-index: 650; }
+
+/* Home Icon */
+
+.meganizr > li.mzr-home-dark > a, 
+.meganizr > li.mzr-home-dark > span,
+.meganizr > li.mzr-home-light > a,
+.meganizr > li.mzr-home-light > span {
+	text-indent: -9999px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+/* // 4. DROPDOWN */
+/* ################################################################ */
+.meganizr > li > div,
+.meganizr > li > ul,
+.meganizr > li > ul li > ul {
+	position: absolute;
+	z-index: 600;
+	padding: 0;
+	top: 36px;
+	// left: -1px;
+	text-align:left;
+
+	opacity: 0;
+	overflow: hidden;
+	visibility: hidden;	
+}
+
+.meganizr > li.mzr-align-right > div {
+	left: auto;
+	right: -1px;
+}
+
+/* Transitions */
+.mzr-slide > li > div,
+.mzr-slide > li > ul,
+.mzr-slide > li > ul li > ul,
+.mzr-fade > li > div,
+.mzr-fade > li > ul,
+.mzr-fade > li > ul li > ul {
+	-webkit-transition: all .15s ease-in;
+	-moz-transition: all .15s ease-in;
+	-o-transition: all .15s ease-in;
+	-ms-transition: all .15s ease-in;
+	transition: all .15s ease-in;
+}
+
+.mzr-slide > li > div,
+.mzr-slide > li > ul,
+.mzr-slide > li > ul li > ul { top: 100px; }
+
+.mzr-slide > li.mzr-drop:hover > div,
+.mzr-slide > li.mzr-drop:hover > ul,
+.mzr-slide > li > ul li.mzr-drop:hover > ul {
+	top: 37px;
+
+	opacity: 1;
+	overflow: visible;
+	visibility: visible;
+}
+
+.mzr-fade > li.mzr-drop:hover > div,
+.mzr-fade > li.mzr-drop:hover > ul,
+.mzr-fade > li > ul li.mzr-drop:hover > ul,
+.meganizr > li.mzr-drop:hover > div,
+.meganizr > li.mzr-drop:hover > ul,
+.meganizr > li > ul li.mzr-drop:hover > ul {
+	opacity: 1;
+	overflow: visible;
+	visibility: visible;
+}
+
+/* Dropdown Columns */
+.meganizr .mzr-full-width > div { width: 100%; left:-1px }
+
+/* Dropdown Levels */
+.meganizr > li > ul,
+.meganizr > li > ul li > ul {
+	width: 190px;
+	padding: 10px;
+}
+
+.meganizr > li > ul li.mzr-drop:hover > ul,
+.meganizr.mzr-fade > li > ul li.mzr-drop > ul { top: -11px; }
+
+.meganizr > li > ul li { position: relative; display:block !important; }
+
+.meganizr > li > ul li > ul {
+	position: absolute;
+	left: 100%;
+}
+
+.meganizr > li.mzr-align-right > ul {
+	left: auto;
+	right: 0;
+}
+
+.meganizr > li > ul li.mzr-align-left > ul {
+	position: absolute;
+	left: auto;
+	right: 105%;
+}
+
+.meganizr > li > ul a {
+	display: block;
+	line-height: 38px;
+
+	border-left:none !important;
+	border-right:none !important;
+
+	-webkit-transition: color .15s ease-in;
+	-moz-transition: color .15s ease-in;
+	-o-transition: color .15s ease-in;
+	-ms-transition: color .15s ease-in;
+	transition: color .15s ease-in;
+}
+
+.meganizr > li > ul li:last-child a { border-bottom: none !important; box-shadow:none }
+
+.meganizr > li > ul a:hover { color: #888; }
+
+.meganizr > li > ul li.mzr-drop > a { background: url(../images/meganizr/arrow.png) no-repeat 180px 16px; }
+
+.meganizr > li > ul li.mzr-align-left.mzr-drop > a { background: url(../images/meganizr/arrow-inverse.png) no-repeat 180px 16px; }
+
+
+
+/* // 5. CONTENT STYLES */
+/* ################################################################ */
+
+/* Cursor */
+.mzr-content { cursor: default; }
+
+/* // 6. RESPONSIVE */
+/* ################################################################ */
+
+@media only screen and (max-width: 959px) {
+
+	#top_nav.top_nav_meganizr {
+		height: auto;
+	}
+
+	.mzr-responsive {
+		height: auto;
+		
+		clear: both;
+		margin: 25px 0;
+		text-align: left;
+	}
+
+	.mzr-responsive > li,
+	.mzr-responsive > li.mzr-align-right {
+		display: inline-block;
+		
+		position: static;
+		border: none;
+		width: 33%;
+	}
+
+	.mzr-responsive > li.mzr-drop { background: url(../images/meganizr/arrow-down.png) no-repeat right center; }
+
+	.mzr-responsive.mzr-slide > li > div,
+	.mzr-responsive.mzr-slide > li > ul,
+	.mzr-responsive.mzr-slide > li > ul li > ul,
+	.mzr-responsive.mzr-fade > li > div,
+	.mzr-responsive.mzr-fade > li > ul,
+	.mzr-responsive.mzr-fade > li > ul li > ul { top: auto; }
+
+	.mzr-responsive.mzr-slide > li.mzr-drop:hover > div,
+	.mzr-responsive.mzr-slide > li.mzr-drop:hover > ul,
+	.mzr-responsive.mzr-slide > li > ul li.mzr-drop:hover > ul,
+	.mzr-responsive.mzr-fade > li.mzr-drop:hover > div,
+	.mzr-responsive.mzr-fade > li.mzr-drop:hover > ul,
+	.mzr-responsive.mzr-fade > li > ul li.mzr-drop:hover > ul { top: auto;	}
+
+	.mzr-responsive > li.mzr-search input { width: 90%; }
+	.mzr-responsive > li.mzr-search input:focus { width: 90%; }
+	.mzr-responsive > li.mzr-search input[type=text] {
+		border: 1px solid #ccc;
+		padding-left: 5px;
+	}
+
+	.mzr-responsive .mzr-content input[type=text],
+	.mzr-responsive .mzr-content input[type=email],
+	.mzr-responsive .mzr-content textarea {
+		width: 80%;
+		max-width: 80%;
+		padding: 9px 4% 8px 15%;
+	}
+
+	.mzr-responsive li.mzr-drop.mzr-levels,
+	.mzr-responsive li.mzr-drop.mzr-contact {
+		position: relative;
+	}
+
+	.mzr-responsive > li.mzr-drop > ul,
+	.mzr-responsive > li.mzr-drop > ul li > ul {
+		width: 100%;
+		padding: 0;
+	}
+
+	.mzr-responsive > li > ul li > ul,
+	.mzr-responsive > li > ul li.mzr-align-left > ul,
+	.mzr-responsive > li.mzr-align-right > ul,
+	.mzr-responsive > li > div {
+		left: -1px;
+	}
+	.mzr-responsive > li > div.nav-pane {
+		width: 100% !important;
+	}
+
+	.mzr-responsive > li > ul a {
+		margin-left: 10px;
+		margin-right: 10px; 
+	}
+
+	.mzr-responsive > li > ul li.mzr-drop > a, .mzr-responsive > li > ul li.mzr-drop > span,
+	.mzr-responsive > li > ul li.mzr-align-left.mzr-drop > a { background: url(../images/meganizr/arrow-down.png) no-repeat 100% center; }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.mzr-responsive > li,
+	.mzr-responsive > li.mzr-align-right { width: 49.5%; }
+	.mzr-responsive > li > div {left:-1px;}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+	.mzr-responsive > li,
+	.mzr-responsive > li.mzr-align-right {
+		display: block;
+		width: 100%;
+	}
+}

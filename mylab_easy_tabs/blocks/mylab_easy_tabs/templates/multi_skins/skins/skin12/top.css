@@ -1,0 +1,115 @@
+.demo_wrapper {
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+ .skin12.top .tabs_header {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ .skin12.top .tab_header_item {
+	float: left;
+	margin: 0px;
+}
+ .skin12.top .tab_content {
+	clear: left;
+	display: none;
+}
+
+/* skin */
+
+ .skin12.top.tabs_wrapper {
+}
+
+ .skin12.top .tabs_header {
+	overflow: visible;
+	height: 49px;
+}
+ .skin12.top .tab_header_item {
+	margin-top: 10px;
+	margin-right: 5px;
+}
+ .skin12.top .tab_header_item.tab_selected {
+	position: relative;
+}
+ .skin12.top .tab_header_item.tab_selected a {
+	display: block;
+	float: left;
+	height: 39px;
+	background-color: #F5FAFE;
+	border: 1px solid #B6D2E8;
+	border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+	color: #333;
+}
+ .skin12.top .tab_header_item.tab_selected span.header_item_before {
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: -11px;
+	bottom: -4px;
+	background: url(images/bottom-right.png) no-repeat;
+}
+ .skin12.top .tab_header_item.tab_selected span.header_item_after {
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: -10px;
+	bottom: -4px;
+	background: url(images/bottom-left.png) no-repeat;
+
+}
+.skin12.top li.tab_header_item.last_tab.tab_selected span.header_item_after {
+	background: none;
+	
+}
+.skin12.top li.tab_header_item.first_tab.tab_selected span.header_item_before {
+	background: none;
+	
+}
+ .skin12.top .tab_header_item a {
+	display: block;
+	padding: 0px 20px;
+	font: 12px/30px Arial, Helvetica, sans-serif;
+	color: #0081E2;
+	text-decoration: none;
+	outline: 0;
+	float: left;
+	height: 32px;
+    border-radius: 8px;
+    -moz-border-radius: 8px	;
+    border: 1px solid #DDDDDD;
+    font-weight: bold;
+	
+}
+ .skin12.top .tab_header_item span.header_item_before {
+	display: none;
+	float: left;
+	width: 9px;
+	height: 32px;
+}
+ .skin12.top .tab_header_item span.header_item_after {
+	display: none;
+	float: left;
+	width: 9px;
+	height: 32px;
+}
+ .skin12.top .content_holder {
+	350
+	color: #777;
+	padding: 5px 30px;
+	-moz-border-radius-bottomright: 8px;
+	border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-radius-bottomleft: 8px;
+	width: 430px;
+	background-color: #F5FAFE;
+	border: 1px solid #B6D2E8;
+}
+
+
+

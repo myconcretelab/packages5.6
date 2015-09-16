@@ -1,0 +1,19 @@
+.nav-boxed li a { 
+	position: relative; 
+	margin-bottom: -1px; 
+	display: block; 
+	border: 1px solid #ccc; 
+	padding: 5px 5px; 
+	color: inherit; 
+}
+.nav-boxed li a.active, .nav-boxed li a:hover {
+	background: #efefef;
+}
+.nav-boxed li:first-child a { 
+	border-top-left-radius: 3px; 
+	border-top-right-radius: 3px; 
+}
+.nav-boxed li:last-child a { 
+	border-bottom-left-radius: 3px; 
+	border-bottom-right-radius: 3px; 
+}

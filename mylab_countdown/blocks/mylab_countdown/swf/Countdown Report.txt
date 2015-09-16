@@ -1,0 +1,42 @@
+Countdown.swf Rapport sur l'animation
+--------------------------------------
+
+Métadonnées
+-----------
+octets    Valeur
+------    ------
+   959    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2010-08-02T16:23:32+02:00</xmp:CreateDate> <xmp:MetadataDate>2010-08-03T16:24:17+02:00</xmp:MetadataDate> <xmp:ModifyDate>2010-08-03T16:24:17+02:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> <xmpMM:DerivedFrom rdf:parseType="Resource"/> <xmpMM:DocumentID>xmp.did:DE65B35C1D206811AB08F7DD4BEA956B</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:DE65B35C1D206811AB08F7DD4BEA956B</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:DE65B35C1D206811AB08F7DD4BEA956B</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+
+Image #    Image octets    Total octets    Séquence
+-------    ------------    ------------    -------------------
+      1          28042          28042    Scene 1 (Image d'exportation des classes AS 3.0)
+
+Séquence                        Forme octets    Texte octets    ActionScript octets
+----------------------------    ------------    ------------    -------------------
+Scene 1                                0             0                 11887
+
+Symbole                       Forme octets    Texte octets    ActionScript octets
+--------------------------    ------------    ------------    -------------------
+Clock                                141           460                     0
+Digit                                  0             0                     0
+digit_top                             44           177                     0
+digit_bottom                         181           177                     0
+
+Nom de la police                 octets        Caractères    
+-----------------------------    ----------    --------------
+Helvetica-Bold Gras           12605     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+
+ActionScript octets    Emplacement
+-------------------    -----------
+             11887    Scene 1:Image 1
+
+Sons d'évènement: 11KHz Mono 16 kbps MP3
+
+
+Nom du son                 octets        Format    
+-----------------------    ----------    ----------
+tick.aif                      639        11KHz Mono 16 kbps MP3
+
+
+
+

@@ -1,0 +1,118 @@
+.photoset-th, .photo-th  {
+  display:block;
+  width:83px;
+  float:left;
+  margin:3px;
+  
+}
+.photo-th div, .collection-th div, .photoset-th div {
+        display:none;
+}
+.bulle {
+        z-index:300;
+        width:200px;
+        position:absolute;
+        bottom:-50px;
+        background:#eee;
+        padding:3px;
+        display:none;
+        border:1px solid #ccc;
+        -webkit-border-radius:3px;
+        -moz-border-radius:3px;
+        border-radius:3px;        
+
+}
+
+/* Photos Sets */
+
+.photoset-th div{
+  display:none;
+}
+.photoset-th img, .photo-th img, .collection-th img{
+        background:#eee;
+        padding:3px;
+        border:1px solid #ccc;
+        -webkit-border-radius:3px;
+        -moz-border-radius:3px;
+        border-radius:3px;
+}
+
+/* Photos */
+
+.photo-th {
+}
+/* Photo page navigation */
+.photos-navigation {
+        clear:both;
+        float:right;
+        width:80px;
+        border:1px solid #cccccc;
+        padding:5px;
+        text-align:center;
+        font-style:italic;
+}
+.photos-count {
+        display:inline;
+}
+.actual-page{
+}
+.photo-navigation-separator {
+
+}
+.total-page {
+        
+}
+.photos-navigation a {
+        font-size:1px; color:#eeeeee;
+        display:block;
+        float:right;
+        text-indent:-999px;
+        width:16px; height:16px;
+        overflow:hidden;
+        margin-left:10px;
+        color:#ff3196;
+        background:url(../images/arrow-bottom.png) no-repeat;
+}
+/* Collections */
+
+.collection-th {
+        display:block;
+        width:99px;
+        float:left;
+        margin:3px;        
+}
+
+
+/* Slides */
+.adv-flickr-gallery {
+        position:relative;
+}
+.adv-flickr-wrapper {
+        height:100px;
+        overflow:hidden;
+        position:relative;
+}
+
+.adv-flickr-slider {
+        position:absolute;
+        height:10000px; /* A bit ugly .. To receive all photo pages*/
+}
+
+.adv-flickr-slide {
+        float:left;
+          position:relative;
+
+}
+.photos-page {
+        float:right;
+}
+.arrow-left {
+        position:absolute;
+        left:-26px;
+        top:0;
+        display:block;
+        width:16px;
+        height:16px;
+        background:url(../images/arrow-left.png) no-repeat;
+        font-size:.01em;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btAirSlider">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" type="I"></field>
+		<field name="image_width" type="I"></field>
+		<field name="image_height" type="I"></field>
+		<field name="gallery_width" type="I"></field>
+		<field name="gallery_height" type="I"></field>
+		<field name="anim_duration" type="I"></field>
+		<field name="duration" type="I"></field>
+		<field name="options" type="X"></field>
+		<field name="default_link_text" type="X"></field>
+		<field name="easing" type="X"></field>
+	</table>
+</schema>

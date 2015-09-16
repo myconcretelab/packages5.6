@@ -1,0 +1,188 @@
+@mixin box-sizing($val) {
+          box-sizing: $val;
+}
+
+@mixin user-select($val...) {
+          user-select: $val;
+}
+
+@mixin box-shadow($shadows...) {
+          box-shadow: $shadows;
+          -webkit-box-shadow: $shadows;
+}
+
+@function inverse-side($side) {
+  @if      $side == top    { @return bottom; }
+  @else if $side == bottom { @return top; }
+  @else if $side == left   { @return right; }
+  @else if $side == right  { @return left; }
+}
+
+@mixin linear-gradient($gradientLine, $colorStops...) {
+  @if length($gradientLine) == 2 {
+  background-image:         linear-gradient(to #{inverse-side(nth($gradientLine, 1))} #{inverse-side(nth($gradientLine, 2))}, $colorStops);
+  } @else {
+  background-image:         linear-gradient(to #{inverse-side($gradientLine)}, $colorStops);
+  }
+}
+
+@mixin gradient($from, $to) {
+  /* fallback/image non-cover color */
+  background-color: $from;
+  background-image: -moz-linear-gradient($from, $to);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+  background-image: -webkit-linear-gradient($from, $to);
+  background-image: -o-linear-gradient($from, $to);
+}
+
+@mixin radial-gradient($gradient...) {
+  background-image:         radial-gradient($gradient);
+}
+
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transition-property($properties...) {
+  transition-property: $properties;
+}
+
+@mixin transform($transform...) {
+   transform: $transform;
+}
+
+@mixin clearfix {
+  zoom: 1;
+
+  &:before, &:after {
+    content: '';
+    display: table;
+  }
+
+  &:after { clear: both; }
+}
+
+@mixin inline-block {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+}
+@mixin min-height($height) {
+   min-height: $height; 
+   height:auto !important; 
+   height: $height; 
+}
+
+@mixin hide-text() {
+  font: 0/0 serif;
+  text-shadow: none;
+  color: transparent;
+}
+
+@mixin hidpi {
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+         only screen and (min-resolution: 144dpi) {
+    @content;
+  }
+}
+
+/* --- Animations --- */
+
+@mixin spin {
+  @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+  }  
+}
+@mixin spinit {
+  animation: spin 1s infinite linear;
+}
+
+/* --- Ribbons --- */
+
+
+@mixin ribbon($ribbon-background-color: #da3376,$ribbon-width: 15em,$ribbon-ends-width: 0.8em,$ribbon-ends-border-width: 0.7em){
+  width: $ribbon-width;
+  position: relative;
+  @include inline-block;
+  @include gradient(lighten($ribbon-background-color, 8%), darken($ribbon-background-color, 8%));
+  text-align: center;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;  
+  
+  &:before, &:after{
+    position: absolute;    
+    top: $ribbon-ends-border-width;
+    border: $ribbon-ends-border-width solid darken($ribbon-background-color, 10%);
+    content: "";
+    z-index: -1;
+  }
+    
+  &:before{ 
+    left: -$ribbon-ends-width;
+    border-right-width: $ribbon-ends-width;
+    border-left-color: transparent;
+  }
+    
+  &:after{ 
+    right: -$ribbon-ends-width;
+    border-left-width: $ribbon-ends-width;
+    border-right-color: transparent;
+  }
+  
+  span {
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+    color:  darken($ribbon-background-color, 25%);
+    text-shadow:  lighten($ribbon-background-color, 10%) 0 1px 0;
+    margin: 0px;
+    padding: 15px 10px;
+
+  }
+
+  span:before, span:after{
+    position: absolute;
+    bottom: -$ribbon-ends-border-width;
+    border: $ribbon-ends-border-width solid darken($ribbon-background-color, 25%);
+    border-color: darken($ribbon-background-color, 25%) transparent transparent transparent;
+    content: "";
+  }
+  
+  span:before{
+    left: 0;
+    border-width: $ribbon-ends-border-width 0 0 $ribbon-ends-border-width;
+  }
+  
+  span:after{
+    right: 0;
+    border-width: $ribbon-ends-border-width $ribbon-ends-border-width 0 0;
+  }
+}
+
+.ribbon-stitches-top {
+  margin-top: 2px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
+}
+
+.ribbon-stitches-bottom {
+  margin-bottom: 2px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+@mixin zig-zag ($color : #999, $size : 40px) {
+background: linear-gradient(-45deg, transparent 50%, $color 50%) 0 50%,
+    linear-gradient(45deg, transparent 50%, $color 50%) 0 50%;
+    
+  background-repeat: repeat-x;
+  background-size: $size, $size, $size, $size, cover, cover;
+}

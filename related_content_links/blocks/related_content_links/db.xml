@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btRelatedContentLinks">
+		<field name="bID" type="I"><key /><unsigned /></field>
+		<field name="relatedCategoryOptionID" type="I"></field>
+		<field name="displayCount" type="I"><unsigned /></field>
+		<field name="displayOrder" type="C" size="10"></field>
+		<field name="title" type="C" size="255"></field>
+		<field name="dateFormat" type="I"><unsigned /></field>
+	</table>
+</schema>

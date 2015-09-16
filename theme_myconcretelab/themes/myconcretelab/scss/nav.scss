@@ -1,0 +1,41 @@
+/* @- Different css pour les navigations */
+
+.top-bar{
+  width: 100%;
+  ul.nav {
+    float: right;
+    @include inline-list();
+    margin: 0;
+    li {
+      position:relative;
+      margin-top: -9px;
+      &.nav-selected, &.nav-path-selected {
+        position:relative;
+        background-color: $primary-color;
+        &:after {
+          content: "";
+          position:absolute;
+          right:-9px; top:0;
+          width: 9px;
+          height: 9px;
+          background-image:url(../images/elements/3d.svg);
+        }
+      }
+      a {
+        padding: 13px 9px 9px;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: $black;
+        &.nav-selected, &.nav-path-selected {
+          color:#fff;
+          &:hover {
+            color: #fff;
+          }
+        }
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

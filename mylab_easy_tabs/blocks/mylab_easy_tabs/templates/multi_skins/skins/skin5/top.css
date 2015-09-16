@@ -1,0 +1,82 @@
+ .skin5.top .tabs_header {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ .skin5.top .tab_header_item {
+       display: inline-block;
+       zoom: 1;
+       *display: inline;
+       margin: 0px;
+	height: 40px;
+}
+
+ .skin5.top .tab_content {
+	clear: left;
+	display: none;
+}
+
+/* skin2 */
+
+.skin5.top.tabs_wrapper {
+	border: 1px solid #ddd;
+}
+
+ .skin5.top .tabs_header {
+	overflow: visible;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	background: url(images/tabs_header.png) left bottom repeat-x;
+	border-bottom: 1px solid #ddd;
+}
+
+ .skin5.top .tab_header_item {
+	margin-left: 0px;
+	background: url(images/tabs_border_top.png) right bottom no-repeat;
+	position: relative;
+}
+
+ .skin5.top .tab_header_item.tab_selected span.header_item_before {
+	background: url(images/tabs_selected.png) center bottom no-repeat;
+	display: block;
+	position: absolute;
+	bottom: -10px;
+	width: 100%;
+	height: 10px;
+}
+
+ .skin5.top .tab_header_item.tab_selected a {
+	color: #cd0000;
+}
+
+ .skin5.top .tab_header_item.first_tab {
+}
+
+ .skin5.top .tab_header_item.first_tab.tab_selected {
+}
+
+ .skin5.top .tab_header_item.last_tab {
+}
+
+ .skin5.top .tab_header_item.last_tab.tab_selected {
+	border-right: none;
+}
+
+ .skin5.top .tab_header_item a {
+	padding: 0px 20px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	color: #333;
+	text-decoration: none;
+	outline: 0;
+}
+
+ .skin5.top .tab_content {
+	350
+	color: #777;
+	padding: 5px 30px;
+}
+
+
+

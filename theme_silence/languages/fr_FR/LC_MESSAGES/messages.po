@@ -1,0 +1,876 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: theme silence 1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-19 10:06+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: cali <cali@concrete5.fr>\n"
+"Language-Team: Concrete5 France <cali@concrete5.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /media/WinnuX/CONCRETE5/seb_jaquemin/theme_silence/theme_silence\n"
+
+#: /var/www/c55/packages/theme_silence/controller.php:3
+#: /var/www/c55/packages/theme_silence/helpers/comments.php:2
+#: /var/www/c55/packages/theme_silence/helpers/theme.php:2
+#: /var/www/c55/packages/theme_silence/helpers/page_list.php:2
+#: /var/www/c55/packages/theme_silence/tools/blender.js.php:1
+#: /var/www/c55/packages/theme_silence/tools/blender.css.php:1
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/view.php:1
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:1
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:1
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:1
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:1
+msgid "Access Denied."
+msgstr "Accès refusé."
+
+#: /var/www/c55/packages/theme_silence/controller.php:12
+msgid "A next generation theme with lot of new features"
+msgstr "La nouvelle génération de thèmes avec beaucoup de fonctions."
+
+#: /var/www/c55/packages/theme_silence/controller.php:16
+msgid "Silence Theme"
+msgstr "Thème Silence"
+
+#: /var/www/c55/packages/theme_silence/controller.php:39
+msgid "Page with header"
+msgstr "Page avec entête"
+
+#: /var/www/c55/packages/theme_silence/controller.php:48
+msgid "Left Sidebar"
+msgstr "Colonne à gauche"
+
+#: /var/www/c55/packages/theme_silence/controller.php:56
+msgid "Right Sidebar"
+msgstr "Colonne à droite"
+
+#: /var/www/c55/packages/theme_silence/controller.php:64
+msgid "Full Width"
+msgstr "Pline page"
+
+#: /var/www/c55/packages/theme_silence/controller.php:75
+msgid "Page Thumbnail"
+msgstr "Miniature de la page"
+
+#: /var/www/c55/packages/theme_silence/controller.php:80
+msgid "Preset List"
+msgstr "Liste de présélections"
+
+#: /var/www/c55/packages/theme_silence/controller.php:92
+msgid "Theme preset Options"
+msgstr "Options pré-sélectionnées du thème"
+
+#: /var/www/c55/packages/theme_silence/controller.php:97
+msgid "Manage your Silence Theme options"
+msgstr "Gestion des options du thème Silence"
+
+#: /var/www/c55/packages/theme_silence/helpers/base_options_generator.php:217
+msgid "Choose File"
+msgstr "Choisir un fichier"
+
+#: /var/www/c55/packages/theme_silence/helpers/options_generator.php:107
+msgid "This action will save the whole page"
+msgstr "Cette action sauvegardera la page complète"
+
+#: /var/www/c55/packages/theme_silence/tools/blender.css.php:43
+msgid "Compression ratio : "
+msgstr "Ratio de compression :"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:3
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:3
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:3
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:3
+msgid "Select a Preset options to edit."
+msgstr "Sélection du pré-réglage à éditer"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:14
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:182
+msgid "Page background"
+msgstr "Fond de pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:18
+msgid "Top page background color"
+msgstr "Couleur du fond de l'entête de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:25
+msgid "Top page Pattern"
+msgstr "Motif de l'entête de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:26
+msgid "Select which pattern to use on the top page."
+msgstr "Sélectionner quel motif utiliser en mosaïque sur l'entête de page."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:33
+msgid "Top page color height"
+msgstr "Hauteur de la couleur du haut de la page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:34
+msgid "Increasing will be visible only when they are something in the header area. Default : 250px"
+msgstr "L'augmentation sera visible uniquement lorsque la zone d'entête aura un contenu. Défaut: 250px"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:44
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:100
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:208
+msgid "Custom Pattern"
+msgstr "Motif personnalisé"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:50
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:214
+msgid "Shadow"
+msgstr "Ombre"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:51
+msgid "Display a emboss shadow at the top or bottom of the header color"
+msgstr "Affiche un gaufrage ombré au dessus ou en dessous de la couleur de l'entête"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:63
+msgid "Display light on logo"
+msgstr "Afficher l'éclairage du logo"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:75
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:136
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:175
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:231
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:68
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:116
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:159
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:86
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:226
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:291
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:113
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:288
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:316
+msgid "Save !"
+msgstr "Sauvegarder !"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:81
+msgid "Body background"
+msgstr "Fond du corps de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:85
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:106
+msgid "Body background color"
+msgstr "Couleur de fond du corps de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:92
+msgid "Body page Pattern"
+msgstr "Motif du corps de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:93
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:201
+msgid "Select which pattern to use on the hole page."
+msgstr "Sélection du motif à utiliser sur toute la page."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:113
+msgid "Main & sidebar"
+msgstr "Zone principale & Colonne"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:118
+msgid "Main Content background Color"
+msgstr "Couleur de fond de la zone principale"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:125
+msgid "Sidebar background Color"
+msgstr "Couleur de fond de la colonne"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:142
+msgid "Top Navigation background"
+msgstr "Fond de la navigation"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:146
+msgid "Drop down navigation color"
+msgstr "Couleur de la navigation déroulante"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:153
+msgid "Drop down navigation color Second level"
+msgstr "Couleur du second niveau de la navigation déroulante"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:160
+msgid "Drop down navigation Light"
+msgstr "Navigation déroulante Light"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:161
+msgid "Display a light shot on the background"
+msgstr "Affiche un spot de lumière sur le fond"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:186
+msgid "Footer background Color"
+msgstr "Couleur du pied de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:193
+msgid "Footer page background Color"
+msgstr "Couleur du fond du pied de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:200
+msgid "Footer page Pattern"
+msgstr "Motif du pied de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/background.php:215
+msgid "Display a emboss shadow at the top or bottom of the footer color"
+msgstr "Affiche un gaufrage ombré au dessus ou en dessous de la couleur du pied de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:15
+msgid "Header Options"
+msgstr "Options de l'entête"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:19
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:134
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:224
+msgid "Display Page Title"
+msgstr "Afficher le titre de la page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:20
+msgid "Display page title in the top of the page (not on 'headered' page type)"
+msgstr "Affiche le titre de la page en haut de celle-ci (sauf sur les pages avec entête étendue)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:27
+msgid "Display Page Description"
+msgstr "Afficher la description de la page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:28
+msgid "Display page description in the top of the page (not on 'headered' page type)"
+msgstr "Affiche la description de la page en haut de celle-ci (sauf sur les pages avec entête étendue)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:35
+msgid "Display Breadcrumb"
+msgstr "Afficher le fil d'ariane"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:36
+msgid "Display Breadcrumb in the top of the page (not on 'headered' page type)"
+msgstr "Affiche le fil d'Ariane en haut des pages (sauf sur les pages avec entête étendue)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:43
+msgid "Display Search box"
+msgstr "Afficher le champ de recherche"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:44
+msgid "Display Search box in the top of the page"
+msgstr "Affiche la boite du champ de saisie des recherches."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:51
+msgid "Hide Sidebar on Mobile"
+msgstr "Cacher la colonne sur les mobiles."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:52
+msgid "If activated, the sidebar will be hidden in small screen like mobile, better to a clear content"
+msgstr "Si activé, la colonne ne sera pas affichée sur les petits écrans comme les mobiles afin d'offrir un rendu clair du contenu."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:59
+msgid "Change Concrete5 layouts into dynamics columns"
+msgstr "Changer l'agencement de Concrete5 en colonnes dynamiques"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:60
+msgid "If enabled, all layouts will be adapted for small screen like mobile. Disable if you want to have diferent size of columns"
+msgstr "Si activé, tout l'agencement sera adapté pour les petits écrans comme les mobiles. Désactivé cette option si vous désirez avoir des colonnes de différentes tailles."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:76
+msgid "Headered Page Type"
+msgstr "Pages avec entête étendue"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:80
+msgid "Make header transparent"
+msgstr "Rend l'entête transparente"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:81
+msgid "If activated, the header is staying transparent (ideal for some header content or sliders)"
+msgstr "Si activé, l'entête reste transparente. (Idéal pour certains contenus d'entête ou les sliders)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:88
+msgid "Padding inside header"
+msgstr "Marge intérieure de l'entête"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:89
+msgid "If activated, the header is displayed with padding inside of it (ideal to desactive for some header content or sliders)"
+msgstr "Si activé, l'entête de page sera affichée avec une marge intérieure (idéal pour désactiver certains contenu ou sliders de l'entête)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:96
+msgid "Shadow around header"
+msgstr "Ombrage extérieur de l'entête"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:97
+msgid "If activated, the header is displayed with shadow around of it (not on non-css3 browser)"
+msgstr "Si activé, l'entête sera affichée avec un ombrage extérieur (uniquement sur les navigateurs supportant le CSS3)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:104
+msgid "Display 'Main' area"
+msgstr "Afficher la zone \"Main\""
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:105
+msgid "If desactivated, only the 'Whithout Frame' Area will be displayed (really beautiful with certain content like portfolio)"
+msgstr "Si désactivé, seul les zones 'sans frames' seront affichés (vraiment jolie avec certains contenus comme les porte folios)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:120
+msgid "Footer"
+msgstr "Pied de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:124
+msgid "Display footer"
+msgstr "Afficher le pied de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:125
+msgid "If you don't want display footer, turn off the button."
+msgstr "Si vous ne désirez pas afficher le pied de page, mettez cette option sur Off."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:132
+msgid "Footer column"
+msgstr "Colonne du pied de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:133
+msgid "How many column you want in the footer"
+msgstr "Combien de colonnes désirez vous dans le pied de page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:147
+msgid "Hide Footer on Mobile"
+msgstr "Cacher le pied de page sur les mobiles"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/theme_options.php:148
+msgid "If activated, the footer will be hidden in small screen like mobile, better to a clear content"
+msgstr "Si activé, le pied de page sera masqué sur les petits écrans comme les mobiles, afin d'offrir un affichage plus clair."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:14
+msgid "Header colors"
+msgstr "Couleurs de l'entête"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:18
+msgid "Enable header color rewritting"
+msgstr "Activer la réécriture des couleurs de l'entête"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:19
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:98
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:238
+msgid "Disable if you don't want activate options below (color will be taked from style.css)"
+msgstr "Désactiver la réécriture si vous ne désirez pas utiliser les options ci-dessous (les couleurs seront celles du fichier style.css)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:26
+msgid "Header as link color"
+msgstr "Couleur de l'entête en tant que lien"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:27
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:34
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:41
+msgid "When a title is a link"
+msgstr "Lorsqu'un titre est un lien"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:33
+msgid "Header as link hovered color"
+msgstr "Couleur du lien entête survolé"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:40
+msgid "Header as link visited color"
+msgstr "Couleur du lien entête visité"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:47
+msgid "H1 color"
+msgstr "Couleur H1"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:54
+msgid "H2 color"
+msgstr "Couleur H2"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:61
+msgid "H3 color"
+msgstr "Couleur H3"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:68
+msgid "H4 color"
+msgstr "Couleur H4"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:75
+msgid "H5 color"
+msgstr "Couleur H5"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:93
+msgid "Typo &amp; elements colors"
+msgstr "Couleurs des Typos &amp; Éléments"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:97
+msgid "Enable Typo & elements rewritting"
+msgstr "Permettre la réécriture des typos &amp; éléments"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:105
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:110
+msgid "Paragraph color"
+msgstr "Couleur des paragraphes"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:117
+msgid "link color"
+msgstr "Couleur des liens"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:124
+msgid "link :hover color"
+msgstr "Liens survolés (:hover)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:131
+msgid "link :visited color"
+msgstr "Liens visités (:visited)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:138
+msgid "Sidebar Title"
+msgstr "Titres de colonnes"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:143
+msgid "Left Sidebar Title background color"
+msgstr "Couleur de fond du titre de la colonne gauche"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:144
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:166
+msgid "Select which color to use as title corner"
+msgstr "Sélectionner quelle couleur utiliser pour les coins du titre"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:151
+msgid "Left Sidebar title text color"
+msgstr "Couleur du texte du titre de la colonne gauche"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:158
+msgid "Left Sidebar title link color"
+msgstr "Couleur des liens de la colonne gauche"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:159
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:181
+msgid "When the title is a link"
+msgstr "Lorsque le titre est un lien"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:165
+msgid "Right Sidebar Title background color"
+msgstr "Couleur de fond du titre de la colonne droite"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:173
+msgid "Right Sidebar title text color"
+msgstr "Couleur du texte du titre de la colonne droite"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:180
+msgid "Right Sidebar title link color"
+msgstr "Couleur du titre de la colonne droite si c'est un lien"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:187
+msgid "Buttons"
+msgstr "Boutons"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:192
+msgid "Buttons background color"
+msgstr "Couleur de fond des boutons"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:193
+msgid "Select which button color to use"
+msgstr "Sélectionner quelle couleur utiliser pour le fond des boutons"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:200
+msgid "Buttons background color on hover"
+msgstr "Couleur de fond des boutons au survol de la souris"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:208
+msgid "Buttons text color"
+msgstr "Couleur du texte des boutons"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:215
+msgid "Buttons hover text color"
+msgstr "couleur du texte des boutons au survol"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:233
+msgid "Header Navigation"
+msgstr "Navigation de l'entête"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:237
+msgid "Enable Header Navigation' rewritting"
+msgstr "Permettre la réécriture de la navigation d'entête"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:245
+msgid "Text First level"
+msgstr "Texte du premier niveau"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:252
+msgid "Text Second level"
+msgstr "Texte du second niveau"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:259
+msgid "Text Third level"
+msgstr "Texte du troisième niveau"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:266
+msgid "Text All level hover & selected"
+msgstr "Textes survolé & sélectioné de tous les niveaux"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:273
+msgid "Background color on hover & selected"
+msgstr "Couleur de fond des liens survolés &amp; sélectionnés"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/types_and_colors.php:280
+msgid "Enable Text shadow on capable browser"
+msgstr "Activer l'ombrage du texte sur les navigateurs le supportant"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:14
+msgid "Pages list Globals"
+msgstr "Options globales de liste de pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:18
+msgid "Display page list meta 'creator'"
+msgstr "Afficher la méta-valeur du créateur sur la liste des pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:19
+msgid "Disable if you don't want the creator's page name"
+msgstr "Désactiver si vous ne voulez pas afficher le nom des créateurs de pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:26
+msgid "Display page list Description"
+msgstr "Afficher la description sur la liste des pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:33
+msgid "Display page list Title"
+msgstr "Afficher le titre sur la liste des pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:40
+msgid "Display page list meta 'creator' as link"
+msgstr "Afficher le créateur de la page en tant que lien"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:41
+msgid "If activated, the name of the creator redirect to her profile "
+msgstr "si activé, le nom du créateur sera un lien redirigeant vers sa page de profil"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:48
+msgid "Display page list meta 'tag'"
+msgstr "Afficher les méta mots clés sur la liste de pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:55
+msgid "Display page list meta 'Comments count'"
+msgstr "Afficher la méta valeur du comptage de commentaires sur les pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:62
+msgid "Display page list meta 'Date of creation'"
+msgstr "Afficher la méta valeur de date de création sur les pages"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:69
+msgid "Display 'Read more' AS button"
+msgstr "Afficher \"Lire la suite\" en bouton"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:77
+msgid "Display 'Read more' button"
+msgstr "Afficher le bouton \"Lire la suite\""
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:84
+msgid "'Read more' custom text"
+msgstr "Texte personnalisé du \"Lire la suite\""
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:86
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:91
+msgid "Crop image"
+msgstr "Recadrer l'image"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:98
+msgid "Image Quality"
+msgstr "Qualité des images"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:99
+msgid "Set the quality of the thumbnail created (higher = much loaded time = better quality)"
+msgstr "Paramétrez les qualité des miniatures créées (haute = meilleur qualité = plus longue à charger)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:119
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:292
+msgid "Pages list Navigable"
+msgstr "Liste de pages navigables"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:123
+msgid "Page list one column Scrollable"
+msgstr "Liste de page crollable sur une colonne"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:127
+msgid "Display in two column"
+msgstr "Afficher en deux colonnes"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:141
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:231
+msgid "Display Page description"
+msgstr "Afficher la description de la page"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:148
+msgid "Display a shadow under picture"
+msgstr "Afficher les ombres sous les images"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:155
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:238
+msgid "Display navigation bullets"
+msgstr "Afficher les de la navigation avec des points"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:162
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:245
+msgid "Display navigation arrows (left&right)"
+msgstr "Afficher les flèches de navigation (gauche &amp; droite)"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:169
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:252
+msgid "Enable autoscroll"
+msgstr "Activer l'autoscroll"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:176
+msgid "Image Width"
+msgstr "Largeur d'image"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:177
+msgid "The width of the main image."
+msgstr "La largeur de l'image principale."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:187
+msgid "Image Height"
+msgstr "Hauteur d'image"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:188
+msgid "The height of the main image."
+msgstr "La heuteur de l'image principale."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:198
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:259
+msgid "Interval time"
+msgstr "Temps de pause"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:199
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:260
+msgid "The time (in milliseconds) between autoscrolls."
+msgstr "Le temps (en millisecaondes) entre chaque changement d'images."
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:209
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:270
+msgid "Scroll Speed"
+msgstr "Vitesse du scroll"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:220
+msgid "Page list two, Three, Four column Scrollable"
+msgstr "Liste de page scrollable sur deux, trois, quatre colonnes"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:296
+msgid "Display 'Sort by Category'"
+msgstr "Afficher \"Trier par catégorie\""
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:297
+msgid "Disable if you don't want the Categories sorting"
+msgstr "Désactivé si ne voulez pas de trie par catégories"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:304
+msgid "Display 'Sort by Alhabetical'"
+msgstr "Afficher \"Trier par ordre alphabétique\""
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/page_list.php:305
+msgid "Disable if you don't want the Date sorting"
+msgstr "Désactiver si vous ne vlouez pas de trie chronologique"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:5
+msgid "Manage Options presets"
+msgstr "Gestion des présélections"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:8
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:57
+msgid "Name"
+msgstr "Nom"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:9
+msgid "Creator"
+msgstr "Créateur"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:10
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:22
+msgid "Rename"
+msgstr "Renommer"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:11
+msgid "Default Selection"
+msgstr "Sélection par défaut"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:12
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:34
+msgid "Delete"
+msgstr "Supprimer"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:27
+msgid "Set as Default"
+msgstr "Sélectionner par défaut"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:29
+msgid "Choosed as default"
+msgstr "Choisie par défaut"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:36
+msgid "Reset Values"
+msgstr "Initialiser les valeurs"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:53
+msgid "Add a new Options presets"
+msgstr "Ajouter une nouvelle présélection d'options"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:58
+msgid "Based on"
+msgstr "Basée sur"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:59
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:64
+msgid "Add"
+msgstr "Ajouter"
+
+#: /var/www/c55/packages/theme_silence/single_pages/dashboard/theme_options/options_presets.php:63
+msgid "If 'blank' is selected <strong>(only for experimented users)</strong> , all options will be taked from the preset selected as 'default' upon a page of options of this new preset will be saved. <br />If you select a 'based on' preset <strong>(recomended)</strong>, all options from these selected preset will be duplicated to the new preset"
+msgstr "Si 'blank' est sélectionné <strong>(seulement pour les utilisateurs expérimentés)</strong> , toutes les options seront prises depuis la présélection par 'défaut' lorsque les options de cette nouvelle pré-sélection d'options seront sauvegardées. <br />Si vous sélectionnez une base de présélection <strong>(recommandé)</strong>, toutes les options de celle-ci seront dupliquées dans la nouvelle pré-sélection."
+
+#: /var/www/c55/packages/theme_silence/themes/silence/elements/footer.php:23
+msgid "All rights reserved."
+msgstr "Tous droits réservés."
+
+#: /var/www/c55/packages/theme_silence/models/theme_options.php:47
+msgid " (default)"
+msgstr "(défaut)"
+
+#: /var/www/c55/packages/theme_silence/blocks/form/view.php:82
+msgid "Please type the letters and numbers shown in the image."
+msgstr "Veuillez saisir les lettre et chiffres affichés sur l'image."
+
+#: /var/www/c55/packages/theme_silence/blocks/form/view.php:83
+msgid "Submit"
+msgstr "Envoyer"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_static.php:27
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_sortable.php:40
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/sidebar.php:27
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_navigable.php:28
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/silence_blog_index.php:67
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_navigable.php:27
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_sortable.php:40
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_static.php:28
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_sortable.php:40
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_static.php:28
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_navigable.php:27
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_sortable.php:40
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_static.php:28
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_navigable.php:27
+msgid "RSS Icon"
+msgstr "Icône RSS"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_static.php:28
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_sortable.php:41
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/sidebar.php:28
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_navigable.php:29
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/silence_blog_index.php:67
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_navigable.php:28
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_sortable.php:41
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_static.php:29
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_sortable.php:41
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_static.php:29
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_navigable.php:28
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_sortable.php:41
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_static.php:29
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_navigable.php:28
+msgid "RSS Feed"
+msgstr "Flux RSS"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_sortable.php:12
+msgid "one Columns Page List <br />Content disabled in edit mode."
+msgstr "Liste de pages en 1 colonne </br>Désactivé en mode édition."
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_sortable.php:72
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_sortable.php:72
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_sortable.php:72
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_sortable.php:72
+msgid "Display :"
+msgstr "Affichage :"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_sortable.php:73
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_sortable.php:73
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_sortable.php:73
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_sortable.php:73
+msgid "show all"
+msgstr "tout afficher"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_sortable.php:81
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_sortable.php:81
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_sortable.php:81
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_sortable.php:81
+msgid "Sort :"
+msgstr "Trier :"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_sortable.php:82
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_sortable.php:82
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_sortable.php:82
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_sortable.php:82
+msgid "original"
+msgstr "original"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/one_column_sortable.php:83
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_sortable.php:83
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_sortable.php:83
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_sortable.php:83
+msgid "alphabetical"
+msgstr "alphabétique"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/silence_blog_index.php:17
+msgid "Comment"
+msgstr "Commentaire"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/silence_blog_index.php:17
+msgid "Comments"
+msgstr "Commentaires"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/silence_blog_index.php:49
+msgid "Read full post"
+msgstr "Lire l'intégralité du billet"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/silence_blog_index.php:66
+msgid "Subscribe to RSS Feed"
+msgstr "S'incrire au flux RSS"
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/four_column_sortable.php:12
+msgid "four Columns Page List <br />Content disabled in edit mode."
+msgstr "Liste de pages en 4 colonnes <br />Contenu désactivé en mode édition."
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/two_column_sortable.php:12
+msgid "two Columns Page List <br />Content disabled in edit mode."
+msgstr "Liste de pages en 2 colonnes <br />Contenu désactivé en mode édition."
+
+#: /var/www/c55/packages/theme_silence/blocks/page_list/templates/three_column_sortable.php:12
+msgid "Three Columns Page List <br />Content disabled in edit mode."
+msgstr "Liste de pages en 3 colonnes  <br />Contenu désactivé en mode édition."
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/background.php:14
+msgid "Warning! Your directory \"files/cache\" is not writtable by the server. Some backgrounds will be invisible ! "
+msgstr "Attention ! Votre répertoire \"files/cache\" n'est pas inscriptible par le serveur. Certains fonds seront invisibles !"
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/controller.php:78
+msgid "Options saved !"
+msgstr "Options sauvegardées !"
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/controller.php:81
+msgid "Unable to save options."
+msgstr "Impossible de sauvegarder les options."
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/options_presets.php:28
+msgid "Preset created !"
+msgstr "Présélection créée !"
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/options_presets.php:31
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/options_presets.php:45
+msgid "Error, the name is empty"
+msgstr "Erreur, le nom est vide"
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/options_presets.php:41
+msgid "Preset deleted !"
+msgstr "Pré-sélection suprimée :"
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/options_presets.php:47
+msgid "Preset renamed !"
+msgstr "Présélection renommée !"
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/options_presets.php:53
+msgid "Preset set as default"
+msgstr "Régler cette pré-sélection par défaut"
+
+#: /var/www/c55/packages/theme_silence/controllers/dashboard/theme_options/options_presets.php:58
+msgid "Preset reseted with starting values"
+msgstr "Présélection initialisée avec sauvegarde des valeurs"
+

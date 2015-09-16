@@ -1,0 +1,58 @@
+2.0.8	- Update icon on Team blocks to the last Font-Awesome.
+2.0.7.2 - Remove the link to the inexistant stylesheet for ie
+2.0.7.1	- Set ing to display:inline-block in place of inline to lee centered alignment
+2.0.7.1	- fix rev slider imaging issue due to ie9-10 image height
+2.0.7 	- FIx the mmenu issue where all cade was duplicated
+2.0.6	- Include a option to deactivate the iFrame script
+	- Change css height by min-height on the script.js
+	- fix ie9-10 image height
+2.0.5	- Fix a issue on some navigation configuration where drop down fails or search box are out of nav.
+	- Fix issue when a page eCommerce are set without category in.
+2.0.4	- Fix a error on theme page option
+2.0.3	- Add full width header area on page-type
+	- Add a option to chosse between 3 size of sidebar
+	- Fix flashing icon on nav
+2.0.2	- Fix full width navigation
+	- Fix pageProductCat attribute name
+	- Test if Atrtribute set Supermint exist
+2.0	- Add top_nav_hover option color.
+	- Add eCommerce product-list & product custom templates.
+	- Add magic header to right sidebar page-type.
+	- Fix Font page error when not connected to Internet.
+	- Add a option to select your own search page.
+	- Add options to the drop down navigation colors.
+	- Add Option to disable the fixed footer.
+	- Add 2 pages type: unbordered-right-sidebar & unbordered-left-sidebar.
+	- Add double tab & double click management on first level tab.
+
+1.6.2	- All subset to League gothic regular
+1.6.1	- Fix the pager on bxslider that appear with the 1.6
+	- Fix the bottom area in front of subnavs in edit mode
+1.6	- Add a class_exists('DOMDocument') for php > 1.4
+	- Improve the mega menu engine by adding ‘-before-’ and ‘-after-‘ to create full width content
+	- add option full_width_mega to display a mega menu as full with or under parent
+	- add mega_columns_width option
+	- fix the search box url
+	
+1.5.4	- Add a option to disable the auto embedding top-navigation
+1.5.3	- Fix other <a> color issues on override.css and add color fix for C5 UI
+1.5.2	- Fix some <a> color issues on override.css
+1.5.1	- Fix the __DIR__ Magic constant on some servers
+	- Fix the missing search box on dropdown-nav
+1.5	- Update theme & icooon to font-awesome 4.0 ! 
+	- Add import/export option’s presets capabilities, start sharing !
+	- Add a option to manage displaying & color of the small arrow on the sliding nag
+	- change mysql row in SuperMintThemeSuperMintOptionsPreset 724_ratio to w724_ratio
+1.4	- Fix minor issue
+	- added jquery.fitvids in the footer
+	- Add .altbg class that contains the alternate color as background
+	- Fix top page info that appear when the option was disabled
+1.3.1	- Package version updated
+1.3	- Fix the ie7&8 issue on rev slider & flat_pie_chart
+	- ad a parent page link to the children nav pane
+1.2	- Add htmlentities for icooon.
+	- Fix color text on button
+1.1	- Add a optional selectbox for mobile navigation
+	- Fixed the title/description that appear when the option was disabled
+	- fixed the link color that was not take in care
+1.0 	- Initial release

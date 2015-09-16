@@ -1,0 +1,23 @@
+.content-sbBlog-commentcount{margin-top: 28px; margin-right: 25px; clear: right; float: right;}
+.content-sbBlog-share{ margin-right: 25px; clear: right; float: right; }
+.content-sbBlog-date{display: block; font-size: 12px!important;}
+.mobile_photo{
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 0px!important;
+	margin-bottom: 25px;
+	max-width: 535px; 
+	border-color: #f6f4ee; 
+	border-width: 8px; 
+	border-style: solid;
+	-webkit-box-shadow: 3px 3px 6px 3px #636363;
+	-moz-box-shadow: 3px 3px 6px 3px #636363;
+	box-shadow: 3px 3px 6px 3px #636363; 
+}
+.tags{
+	font-size: 10px;
+}
+.categories{
+	font-size: 10px;
+}

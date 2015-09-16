@@ -1,0 +1,20 @@
+/*--------------- @- Tiny page-list ---------------*/
+.tiny-page-list { 
+	position: relative; 
+	margin-bottom: 40px; 
+}
+.tiny-page-list img { 
+	float: left; 
+	padding-right: 25px; 
+}
+.tiny-page-list .p-title a { 
+	color: #373b3e; 
+	opacity: .8; 
+	transition: all 0.25s; 
+}
+.tiny-page-list:hover .p-title a { 
+	opacity: 1; 
+}
+.tiny-page-list .p-title + p { 
+	margin-top: 0; 
+}

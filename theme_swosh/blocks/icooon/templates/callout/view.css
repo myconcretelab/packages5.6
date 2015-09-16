@@ -1,0 +1,29 @@
+.callout-icooon {
+	padding: 30px 0;
+}
+.callout-icooon table {
+	width: 80%;
+	margin: 0 auto;
+}
+.callout-icooon h2, .callout-icooon p {
+	margin: 5px 0;
+}
+.callout-icooon p {
+	text-transform: uppercase;
+}
+.callout-icooon h3 {
+	margin: 0
+}
+.callout-icooon h3 i {
+	margin-right: 20px;
+}
+.callout-icooon .readmore {
+	position: relative;
+	bottom: 0;
+	font-size: 24px;
+
+}
+.callout-icooon .icooon-link {
+	min-width: 25%;
+	/*vertical-align: top;*/
+}

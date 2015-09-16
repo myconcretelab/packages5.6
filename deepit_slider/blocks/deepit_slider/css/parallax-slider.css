@@ -1,0 +1,217 @@
+@CHARSET "UTF-8";
+
+/* Main wrapper
+-------------------------------------------------------------------------*/
+.dpit-slider-external {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	
+	/* You can change the following attributes */
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+
+/* Image blocks
+-------------------------------------------------------------------------*/
+.dpit-slider-images { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size:0;
+}
+.dpit-slider-images a.img_holder {
+	display: block;
+	float: left;
+	} 
+
+.dpit-slider-image {
+	position: relative;
+	padding:0; margin:0;
+	float:left;
+	padding:5px;
+	background:#ffffff;
+	border:1px solid #cccccc;
+	
+}
+.dpit-slider-image img {
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+.dpit-slider-image-outer {
+	float: left;
+}
+
+
+/* Frame for the images
+-------------------------------------------------------------------------*/
+.dpit-slider-frame {
+	margin: 0px auto;	
+	position: relative;
+	z-index: 50;
+	overflow:visible !important;
+}
+
+
+
+/* Arrows 
+-------------------------------------------------------------------------*/
+.dpit-slider-arrows {
+	position: absolute;
+	background: url('../images/arrows.png');
+	cursor: pointer;
+	
+	top: 46%;
+	width: 40px;
+	height: 35px;
+	
+	opacity:0.8;
+	zoom: 1;
+	filter:alpha(opacity=80);
+}
+.dpit-slider-arrows.previous 	{ left: -45px;  background-position: left; }
+.dpit-slider-arrows.next 		{ right: -45px; background-position: right; }
+
+
+/* Bullets list 
+-------------------------------------------------------------------------*/
+ul.dpit-slider-listNav {
+	padding: 0;
+	margin: 0;
+	
+	position: absolute;
+	left: 0;
+	list-style: none;
+	z-index:51;
+	
+	bottom: 8px;
+
+	padding: 5px; 
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	border-radius: 4px; 
+	border: 1px solid #d8d8d8; 
+	-webkit-box-shadow: 1px 1px 5px #444444; 
+	-moz-box-shadow: 1px 1px 5px #444444; 
+	box-shadow: 1px 1px 5px #444444;
+	background:#ffffff;
+	opacity:.8;
+	
+}
+ul.dpit-slider-listNav li { 
+	float: left; 
+	cursor: pointer;
+	background: url('../images/switcher.png') right; 
+	overflow: hidden;
+	
+	width: 10px; 
+	height: 10px; 
+	margin: 0 2px;
+}
+ul.dpit-slider-listNav li.active { background-position: left; }
+
+
+/* Thumbnails list 
+-------------------------------------------------------------------------*/
+ul.dpit-slider-listNavThumbs {
+	padding: 0;
+	margin: 0;
+	
+	position: absolute;
+	z-index:52;
+	list-style: none;
+	
+	left: 0;
+	bottom: 10px; 
+}
+ul.dpit-slider-listNavThumbs li { 
+	float: left; 
+	overflow: hidden;
+	cursor: pointer;
+	position:relative;
+	
+	margin: 0 2px;
+	padding: 2px;
+	width: 40px; 
+	height: 40px;
+}
+ul.dpit-slider-listNavThumbs li img{
+	position:absolute;
+}
+ul.dpit-slider-listNavThumbs li.active { 
+	background: #ccc; 
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+
+/* Captions
+---------------------------------------------------------------------*/
+.dpit-slider-captions { display: none; }
+.dpit-slider-caption {
+	display: block;
+	position: absolute;
+	
+	/* Warning : Changin padding affect the height of the box */
+	padding:10px;
+	left: 0px;
+	bottom: 0px;
+	background: black;
+	width: 100%;
+	font-size:12px;
+	color: white;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	
+}
+.dpit-slider-caption h3 { font-size: 1.75em; color:#ffffff; font-family: theorem, sans-serif; }
+.dpit-slider-caption p {  font-size: 1.25em; }
+
+.dpit-slider-caption p,
+.dpit-slider-caption h3 {
+	margin: 10px;
+}
+.dpit-slider-caption p { margin-top: -5px; margin-bottom: 15px; }
+
+.dpit-slider-caption p a,
+.dpit-slider-caption h3 a { color: #66ccff; text-decoration:underline; }
+
+
+.dpit-slider-caption.top {
+	top: 5px;
+	left:5px;
+	bottom: auto;
+}
+.dpit-slider-caption.bottom {
+	/* Depends of paddind at line 31 */
+	left: 5px;
+	bottom: 5px;
+}
+.dpit-slider-caption.left {
+	top: 5px;
+	left: 5px;
+	width: 33.3%;
+	overflow: hidden;
+}
+.dpit-slider-caption.right {
+	top: 5px;
+	left: auto;
+	right: 0;
+	width: 33.3%;
+	overflow: hidden;
+}
+
+
+/* Sub Layer 
+---------------------------------------------------------------------*/
+.dpit-slider-layer { 
+	position: absolute; 
+	top: 0;
+	left: 0;
+}
+
+

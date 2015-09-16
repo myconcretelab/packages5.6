@@ -1,0 +1,80 @@
+/* Default kenBurns */
+.kenBurns {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+/* Default image container */
+.kenBurns .background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate3d(0,0,0) scale(1.25);
+  background: white no-repeat top center; 
+  background-size: cover;
+  opacity: 0;
+}
+
+/* Loaded image container */
+.loaded .kenBurns .background {
+  opacity: 1;
+  transform: scale(1);
+  transition: 6.5s transform;
+}
+
+/* Text */
+.kenBurns h1, .kenBurns p {
+  position: relative;
+  z-index: 1;
+  padding-left: 2%;
+  color: #fff;
+  text-transform: uppercase;
+  width: 50%;
+  clear: both;
+}
+.kenBurns h1 {
+  margin-top: 4%;
+  background: rgba(0,0,0,.2);
+}
+.kenBurns p {
+  text-align: left;
+  margin: 0;
+  text-shadow: 1px 1px 0px rgba(250,250,250,.4);
+  color: #000;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .kenBurns .background {
+    background-size: contain;
+  }
+  .kenBurns {
+    height: 200px;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .kenBurns .background {
+    background-size: contain;
+  }
+  .kenBurns {
+    height: 150px;
+  }
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}

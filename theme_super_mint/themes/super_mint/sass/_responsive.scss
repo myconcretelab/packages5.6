@@ -1,0 +1,113 @@
+/*------------ Media Queries -------------*/
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+/*--- (CONTAINER width: 724px;)--*/
+@media (max-width: 979px) and (min-width: 768px) {
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  h4 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  h1,h2,h3,h4,h5,h6 {line-height:normal}  
+  #top {
+    display: none;
+  }
+  #footer {
+    position: relative;
+  }
+  .mobile-placeholder-nav , #fixed-nav {
+    display: block
+  }
+}
+
+/* Landscape phone to portrait tablet (100%) */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  h4 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  h1,h2,h3,h4,h5,h6 {line-height:normal}
+  #search-box {
+    text-align: center;
+    input {
+      text-align: center;
+    }
+  }
+
+  .mobile-placeholder-nav, #fixed-nav {
+    display: block
+  }
+
+  #top {
+    display: none
+  }
+  #top-page {
+    * {
+      text-align: center;
+    }
+    h3 {
+      font-size: 25px;
+      margin: 25px auto;
+    }
+  }
+  .nav-pane {
+    ul {
+      margin: 10px 0;
+    }
+    li a {
+      margin-bottom: 0;
+    }
+  }
+  .left, .alignleft, .right, .alignright {
+    float: none;
+  }
+  #footer {
+    position: relative;
+  }
+  [class*="span"] {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+  }
+  .ccm-layout-cell {
+    width: 100% !important;
+  }
+  .ccm-layout-col-spacing {
+    margin: 0 !important;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #top {
+    display: none
+  }
+  
+}

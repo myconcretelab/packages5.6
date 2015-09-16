@@ -1,0 +1,17 @@
+.silence_thin {font-family:'ColaborateThinRegular', Arial, sans-serif}
+.silence_light {font-family:'ColaborateLightRegular', Arial, sans-serif}
+.silence_regular {font-family:'ColaborateRegular', Arial, sans-serif}
+.silence_medium {font-family:'ColaborateMediumRegular', Arial, sans-serif}
+.silence_bold {font-family:'ColaborateBoldRegular', Arial, sans-serif}
+
+.alignleft {float:left; margin-right:20px}
+.alignright {float:right; margin-left:20px}
+
+.table_style{}
+.code {}
+.image-reflect-l {}
+.image-reflect-m{}
+.image-reflect-h{}
+
+.butn{}
+.butn-right{}

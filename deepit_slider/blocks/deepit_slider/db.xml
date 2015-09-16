@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btDeepitSlider">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="width" 			type="I"></field>
+		<field name="height" 			type="I"></field>
+		<field name="animSpeed" 		type="I"></field>
+		<field name="pauseTime" 		type="I"></field>
+		<field name="directions"		type="X"></field>
+		<field name="options"			type="X"></field>
+		<field name="layer_files"		type="X"></field>
+		<field name="offsets"			type="X"></field>
+		<field name="caption"	 		type="C" size="15"></field>
+		<field name="captionPosition" 		type="C" size="15"></field>
+
+		<field name="fsID" 		type="I"></field>
+		<field name="fsTitle" 		type="C" size="15"></field>
+		<field name="linkPageID"	type="X"></field>
+		<field name="link" 		type="X"></field>
+		<field name="fileLink"		type="X"></field>
+	</table>
+</schema>

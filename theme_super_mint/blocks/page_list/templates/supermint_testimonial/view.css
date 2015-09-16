@@ -1,0 +1,59 @@
+/*--------------- @- Testimonial page-list ---------------*/
+.ccm-page-list-testimonial .row-fluid {
+	border-top: 1px dotted #ccc;
+}
+.ccm-page-list-testimonial .row-fluid:first-child {
+	border-top: none;
+}
+.testimonial {
+	border-right: 1px dotted #ccc;	
+	padding-top: 30px;
+}
+.testimonial:last-child {
+	border-right: none;	
+}
+.testimonial i {
+	color: #ddd;
+}
+
+.testimonial .img_wrap {
+	float: left;
+	overflow: hidden;
+	border: 4px solid #fff;
+	border-radius: 300px;
+	box-shadow:inset 1px 2px 12px #000000;
+
+}
+.testimonial .text {
+	margin-left: 150px;
+	padding-right: 30px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.testimonial .img_wrap {
+		display: none;
+	}
+	.testimonial .text {
+		margin-left: 0;
+		padding-right: 30px;
+	}
+	.testimonial {
+		border-right: none;	
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}

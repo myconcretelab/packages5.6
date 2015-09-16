@@ -1,0 +1,22 @@
+2.0.1	- Remove some html commented code 
+2.0	- The slider is now responsive !
+1.2	- Add the 'crop' option
+1.1.9	- Add the target option to the image link
+1.1.8 	- Add mobile-hide class
+1.1.7 	- Add the support for 'link_url' attribute on files. 
+1.1.6	- Add your own skins ! 
+	- fix height issues when they are nab buttons
+1.1.5	- Change the url acces by a relativePath acces for compressing js files (work now on each servers)
+1.1.4	- Remove the iPhoneStyle buttons from admin area.
+1.1.3	- Fix compatibility with concrete 5.5
+	- Gzipped and compiled in one file all javascript
+1.1.2.1	- Add shadow option
+1.1.2	- Adding skin possibilities
+	- fixed compatibility issues with jQuery 1.6.1 (Concrete5.4.2)
+	- lot of new options
+1.1.1	- Removing of the test string in url for saving preset! 
+1.1 	- Add a conditional Excanvas support for ie
+	- @bugfix : support to be placed in a scrapbook
+	- @bugfix : return false on firefox and ie when a new preset is saved
+1.0.1 	- Add the Excanvas support for ie (need a conditional implementation)
+1.0 	- Initial Release

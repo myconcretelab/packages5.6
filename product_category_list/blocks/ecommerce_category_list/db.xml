@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btDCEcommerceCategoryList">
+		<field name="bID" type="I"><key /><unsigned /></field>
+
+		<field name="categories" type="X"></field>
+		<field name="underpage" type="I"></field>
+		<field name="redirectpage" type="I"></field>
+		<field name="columns_limit" type="I"></field>
+		<field name="query_category" type="X"></field>
+		<field name="display_title" type="C" size="15"></field>
+		<field name="fsID" type="I"></field>
+		<field name="display_empty_option" type="I"></field>
+		<field name="display_product_count" type="I"></field>
+		<!-- <field name="multiple_choice" type="I"></field> -->
+		</table>
+</schema>

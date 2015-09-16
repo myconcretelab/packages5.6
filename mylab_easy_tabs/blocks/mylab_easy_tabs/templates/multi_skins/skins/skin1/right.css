@@ -1,0 +1,86 @@
+.skin1.right .tabs_header {
+	margin: 0px;
+	padding: 0px;
+	width: 150px;
+	float: right;
+}
+	.skin1.right .tab_header_item {
+		display: block;
+		margin-left: 5px;
+	}
+		.skin1.right .tab_header_item a {
+			outline: 0;
+		}
+.skin1.right .tab_selected {
+/*	background: red; */
+}
+.skin1.right .content_holder {
+    background: url("images/tabs_header_right.png") repeat-y scroll right 0 transparent;
+	margin-right: 125px;
+}
+.skin1.right .tab_content {
+    display: none;
+	padding: 5px 5px 5px 30px;
+}
+
+/* skin2 */
+.skin1.right.tabs_wrapper {
+	border: 1px solid #ddd;
+	border-right: 4px solid #CD0000;
+}
+
+.skin1.right .tabs_header {
+	overflow: visible;
+	min-width: 40px;
+	margin-left: 7px;
+	padding-top: 0px;
+	background: url(images/tabs_header_right.png) 13px 0px repeat-y;
+}
+.skin1.right .tab_header_item {
+	margin-left: 1px;
+	background: none;
+	position: relative;
+	right: -13px;
+}
+.skin1.right .tab_header_item.tab_selected {
+	background: #CD0000;
+	-webkit-border-top-left-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-bottomleft: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+.skin1.right .tab_header_item.tab_selected a {
+	color: #fff;
+}
+.skin1.right .tab_header_item.tab_selected span.header_item_before {
+    background: url("images/header_item_bottom_left.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    height: 9px;
+    position: absolute;
+    right: 0;
+    top: -9px;
+    width: 9px;
+}
+.skin1.right .tab_header_item.tab_selected span.header_item_after {
+    background: url("images/header_item_top_left.png") no-repeat scroll 0 0 transparent;
+    bottom: -9px;
+    display: none;
+    height: 9px;
+    position: absolute;
+    right: 0;
+    width: 9px;
+}
+.skin1.right .tab_header_item a {
+	padding: 10px 20px 10px 10px;
+	display: block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color: #333;
+	text-decoration: none;
+	outline: 0;
+}
+
+
+

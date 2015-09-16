@@ -1,0 +1,17 @@
+.tabs_header {
+	margin: 0px;
+	padding: 0px;
+}
+.tab_header_item {
+	display: inline;
+	margin-left: 5px;
+	border: 1px solid red;
+}
+.tab_selected {
+	background: blue;
+	color: white;
+}
+.tab_content {
+	display: none;
+}
+

@@ -1,0 +1,15 @@
+2.1	- New icons - add cropping capabilites
+2.0.2.2 - fixed when they are no blockID between ''
+2.0.2.1	- Fixed small bug with advanced options.
+2.0.2	- A fileset can now be represented by a single miniature
+2.0.1.2 - Fixed bug with 'webpage' media
+2.0.1.1 - Fixed link bug with a mp3 in a fileset
+2.0.1 - 
+2.0 - New coding - title&desc animation - More options - new lightbox - ..
+1.0.5 - Fix the issue with Vimeo (thumb & link) and Quicktime Size
+1.0.4 - Adding file title display capabilities
+1.0.3.1 - Replace getThumbnail by getRelativePath to avoid a small warning in 5.4.1
+1.0.3 - Keep your fileset sorted ! Take the source from getThumbnail to keep a nice url. Correct the bug in prettyphoto
+1.0.2 - Correct the vimeo Bug from the new lightbox.
+1.0.1 - Add template for the lightbox. Add a url tag for files.
+1.0 - Initial Release

@@ -1,0 +1,280 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+ #swosh .container {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+.column, .columns {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.row {
+	margin-bottom: 20px;
+}
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#swosh .container {
+width: 768px;
+}
+ #swosh .container .column,  #swosh .container .columns {
+margin-left: 10px;
+margin-right: 10px;
+}
+ .column.alpha, .columns.alpha {
+margin-left: 0;
+margin-right: 10px;
+}
+ .column.omega, .columns.omega {
+margin-right: 0;
+margin-left: 10px;
+}
+ #swosh .container .one.column {
+width: 28px;
+}
+ #swosh .container .two.columns {
+width: 76px;
+}
+ #swosh .container .three.columns {
+width: 124px;
+}
+ #swosh .container .four.columns {
+width: 172px;
+}
+ #swosh .container .five.columns {
+width: 220px;
+}
+ #swosh .container .six.columns {
+width: 268px;
+}
+ #swosh .container .seven.columns {
+width: 316px;
+}
+ #swosh .container .eight.columns {
+width: 364px;
+}
+ #swosh .container .nine.columns {
+width: 412px;
+}
+ #swosh .container .ten.columns {
+width: 460px;
+}
+ #swosh .container .eleven.columns {
+width: 508px;
+}
+ #swosh .container .twelve.columns {
+width: 556px;
+}
+ #swosh .container .thirteen.columns {
+width: 604px;
+}
+ #swosh .container .fourteen.columns {
+width: 652px;
+}
+ #swosh .container .fifteen.columns {
+width: 700px;
+}
+ #swosh .container .sixteen.columns {
+width: 748px;
+}
+ #swosh .container .one-third.column {
+width: 236px;
+}
+ #swosh .container .two-thirds.column {
+width: 492px;
+}
+
+        /* Offsets */
+        #swosh .container .offset-by-one {
+padding-left: 48px;
+}
+ #swosh .container .offset-by-two {
+padding-left: 96px;
+}
+ #swosh .container .offset-by-three {
+padding-left: 144px;
+}
+ #swosh .container .offset-by-four {
+padding-left: 192px;
+}
+ #swosh .container .offset-by-five {
+padding-left: 240px;
+}
+ #swosh .container .offset-by-six {
+padding-left: 288px;
+}
+ #swosh .container .offset-by-seven {
+padding-left: 336px;
+}
+ #swosh .container .offset-by-eight {
+padding-left: 348px;
+}
+ #swosh .container .offset-by-nine {
+padding-left: 432px;
+}
+ #swosh .container .offset-by-ten {
+padding-left: 480px;
+}
+ #swosh .container .offset-by-eleven {
+padding-left: 528px;
+}
+ #swosh .container .offset-by-twelve {
+padding-left: 576px;
+}
+ #swosh .container .offset-by-thirteen {
+padding-left: 624px;
+}
+ #swosh .container .offset-by-fourteen {
+padding-left: 672px;
+}
+ #swosh .container .offset-by-fifteen {
+padding-left: 720px;
+}
+}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+ @media only screen and (max-width: 767px) {
+ #swosh .container {
+width: 300px;
+}
+ .column, .columns {
+float: left;
+display: inline;
+margin-left: 10px;
+margin-right: 10px;
+}
+ .row {
+margin-bottom: 20px;
+}
+
+		/* Nested Column Classes */
+		.column.alpha, .columns.alpha {
+margin: 0;
+}
+ .column.omega, .columns.omega {
+margin: 0;
+}
+ #swosh .container .one-third.column {
+margin: 10px 0;
+}
+ #swosh .container .one.column,  #swosh .container .two.columns,  #swosh .container .three.columns,  #swosh .container .four.columns,  #swosh .container .five.columns,  #swosh .container .six.columns,  #swosh .container .seven.columns,  #swosh .container .eight.columns,  #swosh .container .nine.columns,  #swosh .container .ten.columns,  #swosh .container .eleven.columns,  #swosh .container .twelve.columns,  #swosh .container .thirteen.columns,  #swosh .container .fourteen.columns,  #swosh .container .fifteen.columns,  #swosh .container .sixteen.columns {
+width: 280px;
+}
+ #swosh .container .one-third.column,  #swosh .container .two-thirds.column {
+width: 280px;
+}
+
+        /* Offsets */
+        #swosh .container .offset-by-one,  #swosh .container .offset-by-two,  #swosh .container .offset-by-three,  #swosh .container .offset-by-four,  #swosh .container .offset-by-five,  #swosh .container .offset-by-six,  #swosh .container .offset-by-seven,  #swosh .container .offset-by-eight,  #swosh .container .offset-by-nine,  #swosh .container .offset-by-ten,  #swosh .container .offset-by-eleven,  #swosh .container .offset-by-twelve,  #swosh .container .offset-by-thirteen,  #swosh .container .offset-by-fourteen,  #swosh .container .offset-by-fifteen {
+padding-left: 0;
+}
+}
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+ #swosh .container {
+width: 420px;
+}
+ .column, .columns {
+float: left;
+display: inline;
+margin-left: 10px;
+margin-right: 10px;
+}
+ .row {
+margin-bottom: 20px;
+}
+
+		/* Nested Column Classes */
+		.column.alpha, .columns.alpha {
+margin: 0;
+}
+ .column.omega, .columns.omega {
+margin: 0;
+}
+ #swosh .container .one-third.column {
+margin: 10px 0;
+}
+ #swosh .container .one.column,  #swosh .container .two.columns,  #swosh .container .three.columns,  #swosh .container .four.columns,  #swosh .container .five.columns,  #swosh .container .six.columns,  #swosh .container .seven.columns,  #swosh .container .eight.columns,  #swosh .container .nine.columns,  #swosh .container .ten.columns,  #swosh .container .eleven.columns,  #swosh .container .twelve.columns,  #swosh .container .thirteen.columns,  #swosh .container .fourteen.columns,  #swosh .container .fifteen.columns,  #swosh .container .sixteen.columns {
+width: 400px;
+}
+ #swosh .container .one-third.column,  #swosh .container .two-thirds.column {
+width: 400px;
+}
+}
+/* #Clearing
+================================================== */
+
+ /* Self Clearing Goodness */
+    #swosh .container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,  .clearfix:after,  .row:before,  .row:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.row:after,  .clearfix:after {
+	clear: both;
+}
+.row,  .clearfix {
+	zoom: 1;
+}
+/* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}

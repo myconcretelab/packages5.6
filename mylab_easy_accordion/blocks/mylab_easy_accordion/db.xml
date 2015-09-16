@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btMylabEasyAccordion">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="tName" 		type="X"></field>
+		<field name='open'		type="I"></field>
+		<field name="disabled" 		type="C" size="50"></field>
+		<field name="classes" 		type="X"></field>
+	</table>
+</schema>

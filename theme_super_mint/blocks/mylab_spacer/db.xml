@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btMylabSpacer">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="spacerHeight" type="C" size="10"><default value="0" /></field>
+		<field name="image" type="X"></field>
+	</table>
+</schema>

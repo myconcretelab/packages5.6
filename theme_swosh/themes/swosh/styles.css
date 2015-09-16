@@ -1,0 +1,84 @@
+a:not(.button),a:not(.ccm-ui), a:not(.button)a:not(.ccm-ui):visited {
+	/* customize_anchor_color */ color:#ff6445; /* customize_anchor_color */
+}
+p,li, body {
+	/* customize_text_color */ color:#5e637b; /* customize_text_color */
+}
+ h1, h2, h3, h4, h5, h6 
+{
+	 /* customize_title_color */ color: #414558; /* customize_title_color */
+}
+
+
+ div.commentBody h3,
+ p.copyright a, 
+ .footer ul li a:hover, 
+ form#swosh_form input[type="submit"]:hover,
+ .footer h3,
+  .sidebar h3,
+ .footer ul li a:hover ,
+ #tweets li a,
+ #tweets p.meta
+{
+	 /* customize_main_color_on_text */ color: #ff6445; /* customize_main_color_on_text */
+}
+
+
+ .resume .one_third, 
+ .singleblog img,  
+ .blog img, 
+ ul.pagination li a:hover, 
+ ul.pagination li a#currentPage, 
+ #header,
+ .resume .one_third,
+ .sf-menu li ul li a
+ {
+ 	 /* customize_main_color_on_background */ background-color: #ff6445; /* customize_main_color_on_background */
+ 	 /* customize_text_color_on_background */ color: #ffffff; /* customize_text_color_on_background */
+ }
+
+.sf-menu li ul, 
+.portfolio4columns .one_fourth:hover, 
+div.sepContainer1, 
+div.sepContainer, 
+div.sepContainer2,
+#footer   
+{
+	 /* customize_main_color_on_border */ border-color:#5e637b;  /* customize_main_color_on_border */
+}
+
+/*Bleu clair */
+.boxthree .one_third , 
+div.sepContainer2,
+div.sepContainer1,
+div.sepContainer,
+#copyright 
+ {
+ 	 /* customize_second_color_on_background */ background-color: #383838; /* customize_second_color_on_background */
+
+}
+/*Footer */
+#footer {
+ 	 /* customize_background_footer_color */ background-color: #ff6445; /* customize_background_footer_color */
+
+}
+/*Footer text */
+#footer * {
+ 	 /* customize_text_footer_color */ color: #ffffff; /* customize_text_footer_color */
+
+}
+/* Les sous menu */
+#swosh .sf-menu > li ul {
+	/* customize_second_anigation_background */ background-color: #ff6445; /* customize_second_anigation_background */
+}
+/* Le texte dans le menu du haut */
+#swosh .sf-menu li a {
+	/* customize_top_anigation_link */ color: #ffffff; /* customize_top_anigation_link */
+}
+/* Les icones dans le menu du haut */
+#swosh .sf-menu li a i {
+	/* customize_top_navigation_icons */ color: #ffa492; /* customize_top_navigation_icons */
+}
+
+/*Add Your Customization styles below */
+/*____________________________________*/

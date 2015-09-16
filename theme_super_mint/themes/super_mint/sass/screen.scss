@@ -1,0 +1,87 @@
+// Sass Resets
+// @import "_reset";
+
+// _typeplate framework
+@import "_typeplate";
+
+// mixins
+@import "_mixins";
+// Fix for C5
+@import "c5fix";
+
+//  Keyframes from mixins
+@include spin;
+
+
+
+/* --- Stack effect --- */
+@import "_stack";
+
+/* --- tags style --- */
+// @import "_tags";
+
+ /* -- @- Navigations --*/
+@import "_autonav";
+
+/* --- Tooltip by hint --- */
+@import "hint/hint-variables";
+@import "hint/hint-mixins";
+@import "hint/hint-core";
+@import "hint/hint-position";
+@import "hint/hint-color-types";
+
+
+// ----- Additionals ----- //
+
+/*------------ Ribbon top right -------------*/
+@import "_ribbon";
+
+/*------------ Pricing table -------------*/
+//@import "_princing-table";
+
+/*------------ All products stuffs-------------*/
+@import "_sm_products";
+
+/*------------ Product Preview -------------*/
+@import "_product_preview";
+
+/*------------ Sliding cart & cart -------------*/
+@import "_cart";
+
+/*------------ Buttons -------------*/
+@import "_button";
+
+/*------------ Ecommerce -------------*/
+@import "_ecommerce";
+
+/*------------ Page list & bxslider -------------*/
+@import "_page-list";
+
+
+// ----- Main styles ----- //
+
+
+@import "_main";
+
+
+// ----- Responsives styles ----- //
+
+
+@import "_responsive";
+
+// ----- Mobile nav ----- //
+
+@import "mmenu/jquery.mmenu.all";
+
+// ----- font-awesome ----- //
+
+@import "fa/font-awesome";
+
+
+// This files are simple css
+//placed here to be compliled and compressed , thansk to SASS
+@import "css/bootstrap";
+@import "css/antiscroll";
+@import "css/jquery.fancybox";
+@import "css/buttons";
+@import "css/meganizr";

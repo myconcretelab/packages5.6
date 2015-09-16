@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btIcooon">
+		<field name="bID" type="I"><key /><unsigned /></field>
+
+		<field name="iconSize" type="X"></field>
+		<field name="iconName" type="X"></field>
+		<field name="titleText" type="X"></field>
+		<field name="contentText" type="X"></field>
+		<field name="textLink" type="X"></field>
+		<field name="Linkurl" type="X"></field>
+		<field name="pageLinkID" type="X"></field>
+		<field name="mainColor" type="X"></field>
+		<field name="secondColor" type="X"></field>
+
+	</table>
+</schema>

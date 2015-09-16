@@ -1,0 +1,26 @@
+ 
+
+#jq_fmslideshow #fmslideshow .textBg{opacity:.8; filter:alpha(opacity=80)}
+
+.fm_drag-cursor{cursor:move}
+.fm_drag-cursor{cursor:url("images/slider/cursors/openhand.png") 8 8,-moz-grab}
+.fm_drag-cursor{*cursor:url(images/slider/cursors/openhand.cur)}
+.fm_drag-cursor{cursor:url(images/slider/cursors/openhand.cur)}
+
+.fm_draging-cursor{cursor:move}
+.fm_draging-cursor{cursor:url("images/slider/cursors/closedhand.png") 8 8,-moz-grabbing}
+.fm_draging-cursor{*cursor:url(images/slider/cursors/closedhand.cur)}
+.fm_draging-cursor{cursor:url(images/slider/cursors/closedhand.cur)}
+
+.jq_fmslideshow .buttonText{
+	font-size:10px;
+	line-height:12px;
+	color:#000;
+	display: inline-block;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.jq_fmslideshow{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+
+.jq_fmslideshow .nonDraggable{cursor:auto}

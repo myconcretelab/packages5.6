@@ -1,0 +1,317 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Tabs
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+/*overflow-x: hidden;*/}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* #Basic Styles
+================================================== */
+body {
+	font: 12px 'PT Sans', sans-serif;
+	line-height: 20px;
+	color: white;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+	overflow-x: hidden;
+}
+html {
+	background:#f7f6f6;
+/*overflow-x: hidden;*/ }
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+	color: #414558;
+	font-family: 'Arvo', serif;;
+	font-weight: 300;
+	 text-shadow: 1px 1px 0px rgba(256,256,256,.5);
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-weight: inherit;
+	color: #6d8696;
+}
+h1 {
+	font-size: 35px;
+	margin-bottom: 30px;
+	line-height: 1em;
+}
+h2 {
+	font-size: 25px;
+	margin-bottom:15px;
+}
+h3 {
+	font-size: 14px;
+	margin-bottom: 5px;
+	text-transform:uppercase;
+	font-weight: 400;
+}
+h4 {
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+h5 {
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+h6 {
+	font-size: 11px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.subheader {
+	color: #414558;
+}
+p,li {
+	color: #5e637b;
+	line-height:1.5em;
+	font-size:14px;
+	margin: 0 0 15px 0;
+}
+p.last {
+	margin-bottom:0;
+}
+p img {
+	margin: 0;
+}
+ul {
+	margin-left: 20px;
+}
+ul li {
+	line-height:1em;
+	padding: 0px 20px;
+}
+ul li, ul li a {
+	font-size:14px;
+}
+
+img.left {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+img.right {
+	float: right;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+	color: #414558;
+}
+small {
+	font-size: 80%;
+}
+/*	Blockquotes  */
+blockquote, blockquote p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #cdcdcd;
+	font-style: italic;
+}
+blockquote {
+	margin: 0 0 0px;
+	padding: 0;
+	border-right: 1px solid #796172;
+}
+blockquote cite {
+	display: block;
+	font-size: 12px;
+	color: #cdcdcd;
+}
+blockquote cite:before {
+	content: "\2014 \0020";
+}
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
+	color: #cdcdcd;
+}
+hr {
+	border: solid #ddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 10px 0 30px;
+	height: 0;
+}
+	
+/* Text Selection */
+
+::selection {
+background: #6d8696;
+color: #414558; /* Safari */
+}
+::-moz-selection {
+background: #6d8696;
+color: #414558; /* Firefox */
+}
+/* #Links
+================================================== */
+a, a:visited {
+	color:#8098a6;
+	text-decoration: none;
+	outline: 0;
+}
+p a, p a:visited {
+	line-height: inherit;
+}
+/* #Images
+================================================== */
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto;
+}
+
+/* #Forms
+================================================== */
+
+/* General Forms */
+
+form {
+	margin-bottom: 0px;
+}
+fieldset {
+	margin-bottom: 20px;
+}
+label, legend {
+	display: block;
+	font-weight: bold;
+	font-size: 13px;
+}
+input[type="checkbox"] {
+	display: inline;
+}
+label span, legend span {
+	font-weight: normal;
+	font-size: 13px;
+	color: #444;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+	padding: 10px 10px;
+	outline: none;
+	overflow: hidden;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #414558;
+	margin: 0;
+	width: 198px;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	background: #eee;
+}
+select {
+	padding: 0;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+	border: 1px solid #bbb;
+	color: #555;
+}
+textarea {
+	min-height: 100px;
+}
+select {
+	width: 220px;
+}
+/* Header Responsive Menu Form Style */
+	
+.header form {
+	margin-bottom: 15px;
+}
+.header select {
+	-webkit-appearance: none;
+	padding: 10px;
+	outline: none;
+	border:none;
+	overflow: hidden;
+	font: 12px Arial, Helvetica, sans-serif;
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	background:#fff url('../images/navselect.gif') no-repeat right center;
+}
+.header option {
+	outline: none;
+	border: 0;
+	overflow: hidden;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #414558;
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	padding-left: 15px;
+}
+p.copyright span {
+font-size: 12px;
+display: inline-block;
+margin-right: 20px;
+}
+
+/* #Misc
+================================================== */
+.remove-bottom {
+	margin-bottom: 0 !important;
+}
+.half-bottom {
+	margin-bottom: 10px !important;
+}
+.add-bottom {
+	margin-bottom: 20px !important;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}

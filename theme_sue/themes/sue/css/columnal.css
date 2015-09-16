@@ -1,0 +1,135 @@
+
+/* Column code based on work from cssgrid.net: The 1140px Grid by Andy Taylor Ð http://cssgrid.net*/
+
+#sue .container {padding-left: 20px; padding-right: 20px; position:relative; width: 100%}
+#sue .row {clear: both; width: 100%; max-width: 960px; margin: 0 auto; position:relative; /* overflow: hidden */ }
+
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11 {float: left; margin-right: 3.8%; position: relative;}
+
+.col_1 {width: 4.85%;}  /* ie - 4.7% */
+.col_2 {width: 13.5%;}  /* ie - 13.2% */
+.col_3 {width: 22.15%;} /* ie - 22.05% */
+.col_4 {width: 30.8%;} 	/* ie - 30.6% */
+.col_5 {width: 39.45%;} /* ie - 39% */
+.col_6 {width: 48.1%;} 	/* ie - 48% */
+.col_7 {width: 56.75%;} /* ie - 56.75% */
+.col_8 {width: 65.4%;} 	/* ie - 61.6% */
+.col_9 {width: 74.05%;} /* ie - 74.05% */
+.col_10 {width: 82.7%;} /* ie - 82.7% */
+.col_11 {width: 91.35%;}/* ie - 91.35% */
+.col_12 {clear: both; width: 100%; float: left;}
+
+.last, .omega {margin-right: 0 !important;}
+
+.pre_1 {padding-left: 8.65%;} 
+.pre_2 {padding-left: 17.3%;} 
+.pre_3 {padding-left: 25.95%;} 
+.pre_4 {padding-left: 34.6%;} 
+.pre_5 {padding-left: 43.25%;} 
+.pre_6 {padding-left: 51.9%;} 
+.pre_7 {padding-left: 60.55%;}
+.pre_8 {padding-left: 69.2%;}
+.pre_9 {padding-left: 77.85%;}
+.pre_10 {padding-left: 86.5%;} 
+.pre_11 {padding-left: 95.15%;}
+
+.suf_1 {padding-right: 8.65%;}
+.suf_2 {padding-right: 17.3%;}
+.suf_3 {padding-right: 25.95%}
+.suf_4 {padding-right: 34.6%;}
+.suf_5 {padding-right: 43.25%;}
+.suf_6 {padding-right: 51.9%;}
+.suf_7 {padding-right: 60.55%;}
+.suf_8 {padding-right: 69.2%;}
+.suf_9 {padding-right: 77.85%;}
+.suf_10 {padding-right: 86.5%;}
+.suf_11 {padding-right: 95.15%;}
+
+.margin_top_5 {margin-top: 5px !important;}
+.margin_top_15 {margin-top: 15px !important;}
+.margin_top_25 {margin-top: 25px !important;}
+.margin_top_30 {margin-top: 30px !important;}
+.margin_top_35 {margin-top: 35px !important;}
+.margin_top_45 {margin-top: 45px !important;}
+.margin_top_60 {margin-top: 60px !important;}
+.margin_top_90 {margin-top: 90px !important;}
+.margin_top_120 {margin-top: 120px !important;}
+
+.margin_bottom_5 {margin-bottom: 5px !important;}
+.margin_bottom_15 {margin-bottom: 15px !important;}
+.margin_bottom_25 {margin-bottom: 25px !important;}
+.margin_bottom_30 {margin-bottom: 30px !important;}
+.margin_bottom_35 {margin-bottom: 35px !important;}
+.margin_bottom_45 {margin-bottom: 45px !important;}
+.margin_bottom_60 {margin-bottom: 60px !important;}
+.margin_bottom_90 {margin-bottom: 90px !important;}
+.margin_bottom_120 {margin-bottom: 120px !important;}
+
+.padding_top_15 {padding-top:15px !important;}
+.padding_top_30 {padding-top:30px !important;}
+.padding_top_45 {padding-top:45px !important;}
+.padding_top_60 {padding-top:60px !important;}
+.padding_top_90 {padding-top:90px !important;}
+.padding_top_120 {padding-top:120px !important;}
+.padding_top_130 {padding-top:130px !important;}
+
+.padding_bottom_15 {padding-bottom:15px !important;}
+.padding_bottom_30 {padding-bottom:30px !important;}
+.padding_bottom_45 {padding-bottom:45px !important;}
+.padding_bottom_60 {padding-bottom:60px !important;}
+.padding_bottom_90 {padding-bottom:90px !important;}
+.padding_bottom_120 {padding-bottom:120px !important;}
+.padding_bottom_130 {padding-bottom:130px !important;}
+
+
+@media handheld, only screen and (max-width: 767px) {
+	.row, .body, .container {
+	width: 100%;
+	margin-left:0;
+	margin-right:0;
+	padding-left:0;
+	padding-right:0;
+	}
+
+	.pre_1, .pre_2, .pre_3, .pre_4, .pre_5, .pre_6, .pre_7, .pre_8, .pre_9, .pre_10, .pre_11 {padding-left: 0;}
+	.suf_1, .suf_2, .suf_3, .suf_4, .suf_5, .suf_6, .suf_7, .suf_8, .suf_9, .suf_10, .suf_11 {padding-right: 0;}
+
+	.col_1, .col_2, .col_3, .col_4, .col_5, .col_6,
+	.col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
+		clear: both;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: auto;
+		width: -moz-available;
+	}
+
+	.col_2 .col_1, 
+	.col_3 .col_2, .col_3 .col_1,
+	.col_4 .col_3, .col_4 .col_2, .col_4 .col_1,
+	.col_5 .col_4, .col_5 .col_3, .col_5 .col_2, .col_5 .col_1,
+	.col_6 .col_5, .col_6 .col_4, .col_6 .col_3, .col_6 .col_2, .col_6 .col_1,
+	.col_7 .col_6, .col_7 .col_5, .col_7 .col_4, .col_7 .col_3, .col_7 .col_2, .col_7 .col_1,
+	.col_8 .col_7, .col_8 .col_6, .col_8 .col_5, .col_8 .col_4, .col_8 .col_3, .col_8 .col_2, .col_8 .col_1,
+	.col_9 .col_1, .col_9 .col_2, .col_9 .col_3, .col_9 .col_4, .col_9 .col_5, .col_9 .col_6, .col_9 .col_7, .col_9 .col_8,
+	.col_10 .col_9, .col_10 .col_8, .col_10 .col_7, .col_10 .col_6, .col_10 .col_5, .col_10 .col_4, .col_10 .col_3, .col_10 .col_2, .col_10 .col_1,
+	.col_11 .col_10, .col_11 .col_9, .col_11 .col_8, .col_11 .col_7, .col_11 .col_6, .col_11 .col_5, .col_11 .col_4, .col_11 .col_3, .col_11 .col_2, .col_11 .col_1,
+	.col_12 .col_11, .col_12 .col_10, .col_12 .col_9, .col_12 .col_8, .col_12 .col_7, .col_12 .col_6, .col_12 .col_5, .col_12 .col_4, .col_12 .col_3, .col_12 .col_2, .col_12 .col_1 {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+
+	.container h1 {margin:.5em 0 .5em;}
+	.container h2 {margin:.5em 0 .535em;}
+	.container h3 {margin:.5em 0 .57em;}
+	.container h4 {margin:.5em 0 .615em;}
+	.container h5 {margin:.5em 0 .67em;}
+	.container h6 {margin:.5em 0 .8em;}
+
+	.mobile-hide {display: none;}
+	.mobile-only {display: block;}
+        
+ }

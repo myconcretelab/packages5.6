@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btCoverNavigator">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="selected_fileset"		type="X"></field>
+		<field name="view_type"			type="X"></field>
+	</table>
+	<table name="btCoverNavigatorInfos">
+		<field name="ciID" type="I">
+			<KEY/>
+			<autoincrement />
+		</field>
+		<field name="medias"			type="X"></field>
+		<field name="mediaTypes"			type="X"></field>
+		<field name="logo"			type="X"></field>
+	</table>
+</schema>

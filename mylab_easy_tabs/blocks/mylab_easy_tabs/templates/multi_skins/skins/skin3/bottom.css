@@ -1,0 +1,68 @@
+.skin3.bottom.tabs_wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 40px;
+	border: 1px solid #ddd;
+	border-bottom: none;
+}
+.skin3.bottom .tabs_header {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	bottom: 1px;
+	list-style: none;
+	width: 100%;
+}
+.skin3.bottom .tab_header_item {
+	float: left;
+	margin-left: 5px;
+}
+.skin3.bottom .tab_selected {
+	background: blue;
+	color: white;
+}
+.skin3.bottom .content_holder {
+	margin-bottom: 40px;
+}
+.skin3.bottom .tab_content {
+	display: none;
+	margin-top: 0px;
+	padding: 5px 30px;
+	350
+	color: #777;
+}
+	.skin3.bottom .tab_content p {
+		margin-top: 0px;
+	}
+
+/* skin2 */
+.skin3.bottom .tabs_header {
+	overflow: hidden;
+	border-bottom: 4px solid #CD0000;
+	padding-bottom: 1px;
+}
+.skin3.bottom .tab_header_item {
+	margin-left: 1px;
+	background: #fff;
+	padding-top: 7px;
+}
+.skin3.bottom .tab_header_item.tab_selected {
+	background: url(images/selected_bottom.png) no-repeat center top;
+}
+.skin3.bottom .tab_header_item.tab_selected a {
+	background: #CD0000;
+	color: #fff;
+}
+.skin3.bottom .tab_header_item a {
+	display: block;
+	height: 30px;
+	padding: 0px 20px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	outline: 0;
+}
+
+
+

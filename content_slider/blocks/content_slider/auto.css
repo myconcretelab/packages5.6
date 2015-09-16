@@ -1,0 +1,13 @@
+table.admin td {
+        border-bottom:1px solid #cccccc;
+        padding:15px !important;
+}
+table.ajax  td{
+        border-bottom:none;
+}
+#blocks_infos {
+        background:#ffffff;
+}
+.type {
+        padding:5px;
+}

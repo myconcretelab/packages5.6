@@ -1,0 +1,5 @@
+1.1	- The attribute folio_group will be automatically installed.
+	- The thumbnails are automatically cropped
+	- Only compatible with Concrete5.5+
+1.0.1	- Fixed the compatibility with C5.5
+1.0	- Initial Release
